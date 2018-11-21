@@ -1,0 +1,174 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>notes/javascript · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;javascript&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#javascript&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Javascript&lt;/h1&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="notes/javascript · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guidesindex.html"/><meta property="og:description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;javascript&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#javascript&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Javascript&lt;/h1&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/logo.png"/><link rel="shortcut icon" href="/guidesimg/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guidescss/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides"><img class="logo" src="/guidesimg/logo.png" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/guidesdocs/mac-os-x-setup-guide/README" target="_self">Docs</a></li><li class=""><a href="https://wildflame.me/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">notes/javascript</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="javascript"></a><a href="#javascript" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Javascript</h1>
+<ul>
+<li><p>Javscript 中的事件循环</p></li>
+<li><p>What is Javascript &amp; ECMA6?</p></li>
+<li><p>What is pickling and unpickling?</p></li>
+<li><p>How javascript is interpreted?</p></li>
+<li><p>How memory is managed in Javascript?</p></li>
+<li><p>Javascript Async/Await</p></li>
+<li><p>Javascript This, Callback, Functional Programming.</p></li>
+<li><p>原型 / 原型链 | Prototype / Proto</p></li>
+<li><p>作用域 - 闭包 | Closure</p></li>
+<li><p>异步、单线程后续补充</p></li>
+</ul>
+<h1><a class="anchor" aria-hidden="true" id="事件循环-event-loop"></a><a href="#事件循环-event-loop" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>事件循环（Event Loop）</h1>
+<p>timers</p>
+<p>I/O callbacks</p>
+<p>idle, prepare</p>
+<p>poll - &lt; ---- inconming: connections, data, etc.</p>
+<p>check</p>
+<p>close callbacks</p>
+<h1><a class="anchor" aria-hidden="true" id="grammar-keywords"></a><a href="#grammar-keywords" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Grammar / Keywords</h1>
+<h1><a class="anchor" aria-hidden="true" id="core-libs"></a><a href="#core-libs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Core libs</h1>
+<p>Array.prototype.reduce():</p>
+<pre><code class="hljs">const reducer = <span class="hljs-function"><span class="hljs-params">(accumulator, currentValue)</span> =&gt;</span> accumulator + currentValue;
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="this"></a><a href="#this" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>This</h2>
+<p>Javascript 里的 This 指的东西很难确定。</p>
+<p>比如 export module 里的 this:</p>
+<pre><code class="hljs">exports = <span class="hljs-built_in">module</span>.exports = {
+
+    <span class="hljs-attr">isEmpty</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">obj</span>) </span>{
+        <span class="hljs-keyword">if</span> (obj == <span class="hljs-literal">null</span>) <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+        <span class="hljs-keyword">if</span> (isArrayLike(obj) &amp;&amp; (<span class="hljs-keyword">this</span>.isArray(obj) || <span class="hljs-keyword">this</span>.isString(obj) || <span class="hljs-keyword">this</span>.isArguments(obj))) <span class="hljs-keyword">return</span> obj.length === <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.keys(obj).length === <span class="hljs-number">0</span>;
+    },
+
+    <span class="hljs-attr">isThis</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">this</span>.output()
+    },
+
+    <span class="hljs-attr">output</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"this is module export"</span>)
+    }
+}
+</code></pre>
+<p>比如 app.js 里的 this:</p>
+<pre><code class="hljs"><span class="hljs-comment">//app.js</span>
+App({
+  <span class="hljs-attr">onLaunch</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+    <span class="hljs-comment">// 获取用户信息</span>
+    wx.getSetting({
+      <span class="hljs-attr">success</span>: <span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+        <span class="hljs-keyword">if</span> (res.authSetting[<span class="hljs-string">'scope.userInfo'</span>]) {
+          <span class="hljs-comment">// 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框</span>
+          wx.getUserInfo({
+            <span class="hljs-attr">success</span>: <span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+              <span class="hljs-comment">// 可以将 res 发送给后台解码出 unionId</span>
+              <span class="hljs-keyword">this</span>.globalData.userInfo = res.userInfo
+
+              <span class="hljs-comment">// 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回</span>
+              <span class="hljs-comment">// 所以此处加入 callback 以防止这种情况</span>
+              <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.userInfoReadyCallback) {
+                <span class="hljs-keyword">this</span>.userInfoReadyCallback(res)
+              }
+            }
+          })
+        }
+      }
+    })
+  },
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="const"></a><a href="#const" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>const</h2>
+<p>The <strong>const</strong> declaration creates a read-only reference to a value. It does not mean the value it holds is immutable, just that the variable identifier cannot be reassigned. For instance, in the case where the content is an object, this means the object's contents (e.g., its parameters) can be altered.</p>
+<p>参考这篇文档 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const</a></p>
+<p>StackOverflow 上关于为什么要用 const 的讨论 - <a href="https://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary">https://stackoverflow.com/questions/21237105/const-in-javascript-when-to-use-it-and-is-it-necessary</a></p>
+<h2><a class="anchor" aria-hidden="true" id="let"></a><a href="#let" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Let</h2>
+<p>ECMAScript 2015 引入了 let 关键词，</p>
+<h2><a class="anchor" aria-hidden="true" id="await-async"></a><a href="#await-async" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>await、async</h2>
+<ul>
+<li><p>Async</p>
+<p>The <strong>async function</strong> declaration defines an asynchronous function, which returns an AsyncFunction object.</p></li>
+</ul>
+<p>参考这篇文档： <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function</a></p>
+<p>Async 和 Await 是为了代码解耦。</p>
+<h2><a class="anchor" aria-hidden="true" id="promise"></a><a href="#promise" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Promise</h2>
+<p>The <strong>Promise object</strong> represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.</p>
+<p>如果你想更深入地了解和学习 Promise，包括如何对并行的异步操作进行控制，我们推荐阅读<a href="http://liubin.org/promises-book/">《JavaScript Promise迷你书（中文版）》</a> 这本书。</p>
+<p>用 async/await 以及 Promise 一起。</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/42453683/how-to-reject-in-async-await-syntax">https://stackoverflow.com/questions/42453683/how-to-reject-in-async-await-syntax</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="全局变量"></a><a href="#全局变量" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>全局变量</h2>
+<p>在浏览器里，可以使用 window.<em>variable_name</em> 来调用全局变量</p>
+<h1><a class="anchor" aria-hidden="true" id="compile-to-js"></a><a href="#compile-to-js" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>compile to js</h1>
+<ul>
+<li>typescript</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="mocha"></a><a href="#mocha" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>mocha</h2>
+<p><a href="http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html">http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html</a></p>
+<h2><a class="anchor" aria-hidden="true" id="angular"></a><a href="#angular" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Angular</h2>
+<p><a href="http://andyshora.com/unit-testing-best-practices-angularjs.html">http://andyshora.com/unit-testing-best-practices-angularjs.html</a></p>
+<h1><a class="anchor" aria-hidden="true" id="unit-testing"></a><a href="#unit-testing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Unit-testing</h1>
+<h2><a class="anchor" aria-hidden="true" id="automated-unit-testing"></a><a href="#automated-unit-testing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Automated Unit-testing</h2>
+<p>Nightwatch.js</p>
+<h1><a class="anchor" aria-hidden="true" id="functional-programming"></a><a href="#functional-programming" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functional Programming</h1>
+<ol>
+<li><p>paradigm</p>
+<ul>
+<li>Imperative Programming（命令式编程）</li>
+<li>Objected Oriented Programming（面向对象编程）</li>
+</ul></li>
+<li><p>coding style</p></li>
+</ol>
+<h1><a class="anchor" aria-hidden="true" id="ecmascript-2016"></a><a href="#ecmascript-2016" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ECMASCript 2016</h1>
+<p>&quot;=&gt;&quot;</p>
+<p>This is an arrow function. Arrow functions are a short syntax, introduced by ECMAscript 6, that can be used similarly to the way you would use function expressions. In other words, you can often use them in place of expressions like function (foo) {...}. But they have some important differences. For example, they do not bind their own values of this (see below for discussion).</p>
+<h1><a class="anchor" aria-hidden="true" id="debug-in-javascript"></a><a href="#debug-in-javascript" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Debug in Javascript</h1>
+<h3><a class="anchor" aria-hidden="true" id="nodejs-debugger"></a><a href="#nodejs-debugger" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Node.js: Debugger</h3>
+<p>In Node.js, we can add a breakpoint with the debug feature of Node.js and adding a debugger line.</p>
+<p>The process is slightly trickier than for Ruby or Python, buuut we don't have to install anything this time!</p>
+<p>Let's walk through how to use debugger. In our Javascript, we add debugger to create a breakpoint. So say we have simple file called hello.js with the following:</p>
+<pre><code class="hljs"><span class="hljs-keywords">var</span> <span class="hljs-symbol">x</span> = <span class="hljs-string">'hello'</span>;
+debugger;
+
+</code></pre>
+<p>We can go to that breakpoint by first running the file with debug added in, i.e. node debug hello.js:</p>
+<pre><code class="hljs">$~: node debug hello.js
+&lt; debugger listening on port <span class="hljs-number">5858</span>
+connecting... ok
+<span class="hljs-keyword">break</span> <span class="hljs-keyword">in</span> hello.js:<span class="hljs-number">1</span>
+  <span class="hljs-number">1</span> var x = <span class="hljs-string">'hello'</span>;
+  <span class="hljs-number">2</span> debugger;
+  <span class="hljs-number">3</span>
+debug &gt;
+
+</code></pre>
+<p>Now, at the debug prompt, we do two things:</p>
+<p>Type c and hit enter
+Type repl and hit enter</p>
+<pre><code class="hljs"><span class="hljs-built_in">debug</span>&gt; c
+<span class="hljs-keyword">break </span>in hello.<span class="hljs-keyword">js:2
+</span>  <span class="hljs-number">1</span> var x = <span class="hljs-string">'hello'</span><span class="hljs-comment">;</span>
+  <span class="hljs-number">2</span> debugger<span class="hljs-comment">;</span>
+  <span class="hljs-number">3</span>
+  <span class="hljs-number">4</span> })<span class="hljs-comment">;</span>
+<span class="hljs-built_in">debug</span>&gt; repl
+Press Ctrl + C to leave <span class="hljs-built_in">debug</span> repl
+&gt;
+</code></pre>
+<p>Congrats! Now you're at an interactive prompt at the breakpoint.</p>
+<ul>
+<li><a href="http://daguar.github.io/2014/06/05/just-dropped-in-interactive-coding-in-ruby-python-javascript/">http://daguar.github.io/2014/06/05/just-dropped-in-interactive-coding-in-ruby-python-javascript/</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="moduleexports-和-exports"></a><a href="#moduleexports-和-exports" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Module.exports 和 Exports</h2>
+<p>有时候我们会看到如下的写法：</p>
+<pre><code class="hljs"><span class="hljs-keyword">var</span> <span class="hljs-keyword">exports</span> = <span class="hljs-keyword">module</span>.<span class="hljs-keyword">exports</span> = {};
+</code></pre>
+<p>这个时候，你只要记住，Module.exports 和 exports 指的是同样的东西就行了。</p>
+<ul>
+<li><a href="http://www.sitepoint.com/understanding-module-exports-exports-node-js/">www.sitepoint.com/understanding-module-exports-exports-node-js/</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="object"></a><a href="#object" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Object</h2>
+<p>知识点。</p>
+<p>1、Javascript 的类的实现方式。</p>
+<p>2、浅拷贝</p>
+<p>3、深拷贝</p>
+<ul>
+<li><p><a href="http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html">http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html</a></p></li>
+<li><p><a href="http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html">http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html</a></p></li>
+<li><p><a href="http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html">http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html</a></p></li>
+</ul>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#this">This</a></li><li><a href="#const">const</a></li><li><a href="#let">Let</a></li><li><a href="#await-async">await、async</a></li><li><a href="#promise">Promise</a></li><li><a href="#全局变量">全局变量</a></li><li><a href="#mocha">mocha</a></li><li><a href="#angular">Angular</a></li><li><a href="#automated-unit-testing">Automated Unit-testing</a><ul class="toc-headings"><li><a href="#nodejs-debugger">Node.js: Debugger</a></li></ul></li><li><a href="#moduleexports-和-exports">Module.exports 和 Exports</a></li><li><a href="#object">Object</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides" class="nav-home"><img src="/guidesimg/logo.png" alt="Mac OS X 配置指南" width="66" height="55"/></a><div><h5>Docs</h5><a href="/guidesdocs/mac-os-x-setup-guide/README.html">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guidesdocs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wildflame.me/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2018 wild-flame</section></footer></div></body></html>

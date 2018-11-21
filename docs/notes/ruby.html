@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>notes/ruby · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;ruby&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#ruby&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ruby&lt;/h1&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="notes/ruby · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guidesindex.html"/><meta property="og:description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;ruby&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#ruby&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ruby&lt;/h1&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/logo.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/logo.png"/><link rel="shortcut icon" href="/guidesimg/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guidescss/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides"><img class="logo" src="/guidesimg/logo.png" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/guidesdocs/mac-os-x-setup-guide/README" target="_self">Docs</a></li><li class=""><a href="https://wildflame.me/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">notes/ruby</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="ruby"></a><a href="#ruby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ruby</h1>
+<pre><code class="hljs"><span class="hljs-string">"2147483648"</span> should a special <span class="hljs-built_in">number</span> <span class="hljs-keyword">in</span> ruby which leads <span class="hljs-keyword">to</span> <span class="hljs-keyword">error</span>.
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="ruby-里的-array-map里的-return"></a><a href="#ruby-里的-array-map里的-return" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby 里的 Array#map里的 return</h3>
+<p>参见 - <a href="https://stackoverflow.com/questions/39350042/return-in-ruby-arraymap">https://stackoverflow.com/questions/39350042/return-in-ruby-arraymap</a></p>
+<p>引用：</p>
+<hr>
+<p>Sergio's answer is very good, but it's worth pointing out that there is a keyword that works the way you wanted return to work: next.</p>
+<hr>
+<h3><a class="anchor" aria-hidden="true" id="ruby-里的-hash-dictionary"></a><a href="#ruby-里的-hash-dictionary" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby 里的 Hash（Dictionary）</h3>
+<pre><code class="hljs"><span class="hljs-comment"># you can do hash like this</span>
+grades = {<span class="hljs-string">"A"</span> =&gt; 100, <span class="hljs-string">"B"</span> =&gt; 90}
+
+<span class="hljs-comment"># or this</span>
+options = {:size =&gt; 10, :font-family =&gt; <span class="hljs-string">"arial"</span>}
+
+<span class="hljs-comment"># or this</span>
+options = {size:10, font-family:<span class="hljs-string">"arial"</span>}
+
+<span class="hljs-comment"># can be asceess as </span>
+options[size] <span class="hljs-comment"># 10</span>
+</code></pre>
+<pre><code class="hljs"># A hash can also be created <span class="hljs-keyword">by</span> <span class="hljs-keyword">new</span> <span class="hljs-function"><span class="hljs-keyword">method</span>
+<span class="hljs-title">grades</span> = <span class="hljs-title">Hash</span>.<span class="hljs-title">new</span>
+</span></code></pre>
+<p>if you want to add default value then you can use</p>
+<pre><code class="hljs">grades = <span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Hash</span>.</span></span><span class="hljs-keyword">new</span>(<span class="hljs-number">0</span>)
+</code></pre>
+<p>or by using <code>default=</code> method</p>
+<pre><code class="hljs">grades.<span class="hljs-section">default</span> = <span class="hljs-number">0</span>
+</code></pre>
+<p>更进阶的使用请参考</p>
+<ul>
+<li><a href="http://docs.ruby-lang.org/en/2.0.0/Hash.html">http://docs.ruby-lang.org/en/2.0.0/Hash.html</a></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="notes"></a><a href="#notes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Notes</h3>
+<ul>
+<li><p><code>scope</code> 在 C 里面，'{}' 的内部可以看到外部的变量。但是在 ruby 里面，scope 之间是严格划分开的，参见下面的例子，<code>local_variables</code> 之间是严格分开的。</p>
+<ul>
+<li><code>scope.rb</code>:</li>
+</ul></li>
+</ul>
+<pre><code class="hljs">v1 = <span class="hljs-number">1</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">myClass</span></span>
+  v2 = <span class="hljs-number">2</span> 
+  local_variables <span class="hljs-comment"># =&gt; [:v2]</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">my_method</span></span>
+    v3 = <span class="hljs-number">3</span>
+    local_variables
+  <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+
+obj = Myclass.new
+obj.my_method <span class="hljs-comment"># =&gt; [:v3]</span>
+local_variables <span class="hljs-comment"># =&gt; [:v1]</span>
+</code></pre>
+<p>TIPS: 在《Meteprogramming Ruby》一书里面，有一个 Bug 就是这个机制造成的。</p>
+<h4><a class="anchor" aria-hidden="true" id="spaceship-operators"></a><a href="#spaceship-operators" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Spaceship Operators</h4>
+<p><code>&lt;=&gt;</code></p>
+<pre><code class="hljs"><span class="hljs-selector-tag">a</span> &lt;=&gt; <span class="hljs-selector-tag">b</span> :=
+  <span class="hljs-keyword">if</span> <span class="hljs-selector-tag">a</span> &lt; <span class="hljs-selector-tag">b</span> then return -<span class="hljs-number">1</span>
+  <span class="hljs-keyword">if</span> <span class="hljs-selector-tag">a</span> = <span class="hljs-selector-tag">b</span> then return  <span class="hljs-number">0</span>
+  <span class="hljs-keyword">if</span> <span class="hljs-selector-tag">a</span> &gt; <span class="hljs-selector-tag">b</span> then return  <span class="hljs-number">1</span>
+  <span class="hljs-keyword">if</span> <span class="hljs-selector-tag">a</span> and <span class="hljs-selector-tag">b</span> are not comparable then return nil
+</code></pre>
+<ul>
+<li>参见 <a href="http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator">http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator</a></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="lambda-block-和-proc-的区别与联系"></a><a href="#lambda-block-和-proc-的区别与联系" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Lambda, Block 和 Proc 的区别与联系</h4>
+<p><a href="http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/">http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/</a></p>
+<h3><a class="anchor" aria-hidden="true" id="quiz"></a><a href="#quiz" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quiz</h3>
+<ul>
+<li><p>Closure，block 以及 scope 的联系和区别是什么？</p></li>
+<li><p><code>method_missing()</code> 在 Ruby 里面有什么奇技淫巧？</p></li>
+<li><p>在 ruby 里实现一个 C# 里的 <code>using</code> 关键字（参见《元编程 Quiz:Ruby# 》）。</p></li>
+<li><p>Flat Scope 是什么意思？Scope Gate 以及 Shared Scope 呢，它们分别是什么意思？</p></li>
+<li><p>Dynamic Dispatch 是什么意思？</p></li>
+<li><p><code>define_method</code> 的用法? <code>class.new()</code>的用法? 如何使用二者以共享变量？</p></li>
+<li><p><code>instance_eval()</code>有什么使用技巧？</p></li>
+<li><p>block 和 proc 有什么联系和区别？</p></li>
+<li><p>说一下<code>hignline</code>这个 gem 是怎么使用的呢？</p></li>
+<li><p>callable object 一共有哪些？他们的联系和区别是什么？</p></li>
+<li><p><code>instance_eval()</code> 和 <code>class_eval()</code> 的使用有什么不同？</p></li>
+<li><p><code>attr_accessor</code> 的作用原理是什么？</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="cheatsheat"></a><a href="#cheatsheat" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cheatsheat</h3>
+<h4><a class="anchor" aria-hidden="true" id="if-name-main-在-ruby-里是什么"></a><a href="#if-name-main-在-ruby-里是什么" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>if __name__ == '__main__'</code> 在 Ruby 里是什么</h4>
+<pre><code class="hljs"><span class="hljs-keyword">if</span> <span class="hljs-keyword">__FILE__</span> == $<span class="hljs-number">0</span>
+    foo()
+    bar()
+<span class="hljs-keyword">end</span>
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="ruby-里的取整"></a><a href="#ruby-里的取整" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ruby 里的取整</h4>
+<p><code>.round</code> 四舍五入</p>
+<p><code>.floor</code> 向下取整</p>
+<p><code>.ceil</code> 向上取整</p>
+<p>除法。在 ruby 里是向下取整。而在 C 里是向零取整。</p>
+<p>参见：<a href="http://otnth.blogspot.hk/2009/05/negative-division-in-ruby.html">http://otnth.blogspot.hk/2009/05/negative-division-in-ruby.html</a></p>
+<h4><a class="anchor" aria-hidden="true" id="implement-a-priority-queue-in-ruby"></a><a href="#implement-a-priority-queue-in-ruby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Implement a priority queue in Ruby</h4>
+<p><a href="http://www.brianstorti.com/implementing-a-priority-queue-in-ruby/">http://www.brianstorti.com/implementing-a-priority-queue-in-ruby/</a></p>
+<h5><a class="anchor" aria-hidden="true" id="heap-datastructure-in-ruby"></a><a href="#heap-datastructure-in-ruby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Heap Datastructure in Ruby</h5>
+<p><a href="https://www.sitepoint.com/heap-data-structure-ruby/">https://www.sitepoint.com/heap-data-structure-ruby/</a></p>
+<h4><a class="anchor" aria-hidden="true" id="在代码里取得-ruby-的版本号"></a><a href="#在代码里取得-ruby-的版本号" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>在代码里取得 Ruby 的版本号</h4>
+<pre><code class="hljs"><span class="hljs-string">"<span class="hljs-subst">#{RUBY_VERSION}</span>-p<span class="hljs-subst">#{RUBY_PATCHLEVEL}</span>"</span>
+
+<span class="hljs-comment"># or</span>
+
+RUBY_DESCRIPTION
+</code></pre>
+<p>参见：<a href="http://stackoverflow.com/questions/11819525/programmatically-getting-full-ruby-version">http://stackoverflow.com/questions/11819525/programmatically-getting-full-ruby-version</a></p>
+<h4><a class="anchor" aria-hidden="true" id="print-format-cheatsheat"></a><a href="#print-format-cheatsheat" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Print Format Cheatsheat</h4>
+<p><a href="http://alvinalexander.com/programming/printf-format-cheat-sheet">http://alvinalexander.com/programming/printf-format-cheat-sheet</a></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides" class="nav-home"><img src="/guidesimg/logo.png" alt="Mac OS X 配置指南" width="66" height="55"/></a><div><h5>Docs</h5><a href="/guidesdocs/mac-os-x-setup-guide/README.html">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guidesdocs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wildflame.me/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2018 wild-flame</section></footer></div></body></html>
