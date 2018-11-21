@@ -1,0 +1,70 @@
+/* your custom css */
+.fixedHeaderContainer {
+    background-color: #fff;
+    border-bottom: #000 solid;
+}
+
+.fixedHeaderContainer a {
+    color: #000;
+}
+
+.navigationSlider .slidingNav ul li a {
+    color: #000;
+}
+
+.nav-footer {
+    background-color: #fff;
+    border-top: rgba(0,0,0,1) solid 1px;
+}
+
+.nav-footer .sitemap h5 {
+    color: rgba(0,0,0 ,1)
+}
+
+.nav-footer .sitemap a {
+    color: rgba(0,0,0, 0.6);
+}
+
+.nav-footer .copyright {
+    color: rgba(0,0,0 ,0.4); 
+}
+
+.nav-footer .sitemap a:hover, .nav-footer .sitemap a:focus {
+    color: #000;
+    text-decoration: underline;
+}
+
+a {
+    color: #2196f3;
+}
+
+a:hover {
+    color: #2196f3; 
+    text-decoration: underline;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+    .navigationSlider .slidingNav ul li a {
+        color: #fff;
+    }
+
+    .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
+        text-decoration: underline;
+    }
+
+    #githubRibbons { 
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

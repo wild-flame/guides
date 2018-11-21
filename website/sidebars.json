@@ -1,0 +1,29 @@
+{
+  "docs": {
+    "目录": ["mac-os-x-setup-guide"],
+    "系统偏好设置": ["mac-os-x-setup-guide/preference_and_settings/readme"],
+    "软件安装以及下载": ["mac-os-x-setup-guide/aria_2/readme", "mac-os-x-setup-guide/homebrew"],
+    "后端相关工具": ["mac-os-x-setup-guide/docker"],
+    "编程工具":["mac-os-x-setup-guide/vscode", 
+               "mac-os-x-setup-guide/xcode", 
+               "mac-os-x-setup-guide/emacs",
+               "mac-os-x-setup-guide/iTerm2/README",
+               {
+                  "type": "subcategory",
+                  "label": "vim",
+                  "ids": ["mac-os-x-setup-guide/vim", "mac-os-x-setup-guide/vim/emmet-vim","mac-os-x-setup-guide/vim/neovim"]
+               },{
+                "type": "subcategory",
+                "label": "Git 和 Github 的配置",
+                "ids": ["mac-os-x-setup-guide/git", "mac-os-x-setup-guide/gitignore"]
+               }],
+    "编程语言相关环境": [ "mac-os-x-setup-guide/python", "mac-os-x-setup-guide/ruby","mac-os-x-setup-guide/nodejs"],
+    "科研":["mac-os-x-setup-guide/LaTeX", "mac-os-x-setup-guide/shadowsocks"],
+    "娱乐":["mac-os-x-setup-guide/mpv", "mac-os-x-setup-guide/chrome"],
+    "其他":["mac-os-x-setup-guide/Others"],
+    "附录": ["mac-os-x-setup-guide/appendix","mac-os-x-setup-guide/bibliography"]},
+  "docs-other": {
+    "乱七八糟的笔记": ["notes/SUMMARY", "doc5"]
+  }
+}
+
