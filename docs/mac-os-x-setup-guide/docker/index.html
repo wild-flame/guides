@@ -38,16 +38,16 @@
 <h4><a class="anchor" aria-hidden="true" id="手动下载安装"></a><a href="#手动下载安装" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>手动下载安装</h4>
 <p>如果需要手动下载，请点击以下链接下载 <a href="https://download.docker.com/mac/stable/Docker.dmg">Stable</a> 或 <a href="https://download.docker.com/mac/edge/Docker.dmg">Edge</a> 版本的 Docker for Mac。</p>
 <p>如同 macOS 其它软件一样，安装也非常简单，双击下载的 <code>.dmg</code> 文件，然后将那只叫 <a href="https://blog.docker.com/2013/10/call-me-moby-dock/">Moby</a> 的鲸鱼图标拖拽到 <code>Application</code> 文件夹即可（其间需要输入用户密码）。</p>
-<p><img src="/assets/install-mac-dmg.png" alt=""></p>
+<p><img src="/guides/docs/assets/install-mac-dmg.png" alt=""></p>
 <h3><a class="anchor" aria-hidden="true" id="运行"></a><a href="#运行" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>运行</h3>
 <p>从应用中找到 Docker 图标并点击运行。</p>
-<p><img src="/assets/install-mac-apps.png" alt=""></p>
+<p><img src="/guides/docs/assets/install-mac-apps.png" alt=""></p>
 <p>运行之后，会在右上角菜单栏看到多了一个鲸鱼图标，这个图标表明了 Docker 的运行状态。</p>
-<p><img src="/assets/install-mac-menubar.png" alt=""></p>
+<p><img src="/guides/docs/assets/install-mac-menubar.png" alt=""></p>
 <p>第一次点击图标，可能会看到这个安装成功的界面，点击 &quot;Got it!&quot; 可以关闭这个窗口。</p>
-<p><img src="/assets/install-mac-success.png" alt=""></p>
+<p><img src="/guides/docs/assets/install-mac-success.png" alt=""></p>
 <p>以后每次点击鲸鱼图标会弹出操作菜单。</p>
-<p><img src="/assets/install-mac-menu.png" alt=""></p>
+<p><img src="/guides/docs/assets/install-mac-menu.png" alt=""></p>
 <p>启动终端后，通过命令可以检查安装后的 Docker 版本。</p>
 <pre><code class="hljs css language-bash">$ docker --version
 Docker version 17.10.0-ce, build f4ffd25
@@ -60,7 +60,7 @@ docker-machine version 0.13.0, build 9ba6da9
 <pre><code class="hljs css language-bash">$ docker run -d -p 80:80 --name webserver nginx
 </code></pre>
 <p>服务运行后，可以访问 <a href="http://localhost">http://localhost</a>，如果看到了 &quot;Welcome to nginx!&quot;，就说明 Docker for Mac 安装成功了。</p>
-<p><img src="/assets/install-mac-example-nginx.png" alt=""></p>
+<p><img src="/guides/docs/assets/install-mac-example-nginx.png" alt=""></p>
 <p>要停止 Nginx 服务器并删除执行下面的命令：</p>
 <pre><code class="hljs css language-bash">$ docker stop webserver
 $ docker rm webserver
