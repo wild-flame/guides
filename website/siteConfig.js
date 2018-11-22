@@ -40,7 +40,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'mac-os-x-setup-guide', label: 'Docs'},
+    {doc: 'mac-os-x-setup-guide/guide-introduction', label: 'Docs'},
   // {doc: 'notes/SUMMARY', label: 'Notes'},
   // {page: 'help', label: 'Help'},
     {href: blog, label: "Blog" }
@@ -52,7 +52,7 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/iconfinder_mac_os_X_401371.svg',
   // footerIcon: 'img/OS_X_El_Capitan_logo.svg',
-  favicon: 'img/OSXLeopard.svg',
+  favicon: 'img/favicon/favicon.ico',
   blog,
 
 
@@ -93,8 +93,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/logo.png',
-  twitterImage: 'img/logo.png',
+  ogImage: 'img/iconfinder_mac_os_X_401371.svg',
+  twitterImage: 'img/iconfinder_mac_os_X_401371.svg',
 
   // Show documentation's last contributor's name.
   enableUpdateBy: true,

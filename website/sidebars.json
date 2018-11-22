@@ -1,6 +1,6 @@
 {
   "docs": {
-    "目录": ["mac-os-x-setup-guide"],
+    "目录": ["mac-os-x-setup-guide/guide-introduction"],
     "系统偏好设置": ["mac-os-x-setup-guide/preference_and_settings/readme"],
     "软件安装以及下载": ["mac-os-x-setup-guide/aria_2/readme", "mac-os-x-setup-guide/homebrew"],
     "后端相关工具": ["mac-os-x-setup-guide/docker"],
@@ -21,9 +21,9 @@
     "科研":["mac-os-x-setup-guide/LaTeX", "mac-os-x-setup-guide/shadowsocks"],
     "娱乐":["mac-os-x-setup-guide/mpv", "mac-os-x-setup-guide/chrome"],
     "其他":["mac-os-x-setup-guide/Others"],
-    "附录": ["mac-os-x-setup-guide/appendix","mac-os-x-setup-guide/bibliography"]},
+    "附录":["mac-os-x-setup-guide/appendix","mac-os-x-setup-guide/bibliography"]},
   "docs-other": {
-    "乱七八糟的笔记": ["notes/SUMMARY", "doc5"]
+    "乱七八糟的笔记": ["notes/SUMMARY"]
   }
 }
 

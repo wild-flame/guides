@@ -34,7 +34,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('mac-os-x-setup-guide')}>
+            <a href={this.docUrl('max-os-x-setup-guide/guide-introduction')}>
               Mac OS 配置指南 | Mac OS Setup Guide
             </a>
             <a href={this.docUrl('notes/SUMMARY.html')}>
@@ -46,7 +46,7 @@ class Footer extends React.Component {
             <a href="https://github.com/wild-flame/jekyll-Simple/">
               Jekyll simple
             </a>
-            <a href="">猪瘟疫情可视化</a>
+            <a href="http://datanews.caixin.com/2018-10-30/101321216.html">猪瘟疫情可视化</a>
           </div>
           <div>
             <h5>More</h5>

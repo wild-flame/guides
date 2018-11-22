@@ -1,7 +1,12 @@
 ---
+id: guide-introduction
 title: Mac OS X 配置指南 | Mac OS X Setup Guide
 sidebar_label: 介绍
 ---
+
+<script type="text/javascript">
+    window.location.href = "https://wild-flame.github.io/guides/docs/mac-os-setup-guide/guide-introduction";
+</script>
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/wild-flame/mac-os-x-setup-guide/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Help edting this book</a>
@@ -86,7 +91,7 @@ Mac 的电脑很棒，可以称的上艺术品了。但是，对于绝大多数�
 
 ---
 
-本书地址：[mac-setup.wildflame.org](http://mac-setup.wildflame.org/)
+新版地址：[wild-flame.github.io/guides](https://wild-flame.github.io/guides) | 旧版地址：[mac-setup.wildflame.org](http://mac-setup.wildflame.org/)
 
 [![GitHub contributors](https://img.shields.io/github/contributors/wild-flame/mac-os-x-setup-guide.svg?style=for-the-badge)](https://github.com/wild-flame/mac-os-x-setup-guide/graphs/contributors)
 
