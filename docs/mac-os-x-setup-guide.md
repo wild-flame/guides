@@ -5,7 +5,7 @@ sidebar_label: 介绍
 ---
 
 <script type="text/javascript">
-    window.location.href = "https://wild-flame.github.io/guides/docs/mac-os-setup-guide/guide-introduction";
+    window.location.href = "https://wild-flame.github.io/guides/docs/mac-os-x-setup-guide/guide-introduction";
 </script>
 
 <!-- Place this tag where you want the button to render. -->

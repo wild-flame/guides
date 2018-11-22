@@ -34,7 +34,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('max-os-x-setup-guide/guide-introduction')}>
+            <a href={this.docUrl('mac-os-x-setup-guide/guide-introduction')}>
               Mac OS 配置指南 | Mac OS Setup Guide
             </a>
             <a href={this.docUrl('notes/SUMMARY.html')}>

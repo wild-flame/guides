@@ -11,7 +11,7 @@
                {
                   "type": "subcategory",
                   "label": "vim",
-                  "ids": ["mac-os-x-setup-guide/vim", "mac-os-x-setup-guide/vim/emmet-vim","mac-os-x-setup-guide/vim/neovim"]
+                  "ids": ["mac-os-x-setup-guide/install_vim", "mac-os-x-setup-guide/vim/emmet-vim","mac-os-x-setup-guide/vim/neovim"]
                },{
                 "type": "subcategory",
                 "label": "Git 和 Github 的配置",
