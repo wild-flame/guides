@@ -2,74 +2,296 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wild-flame.github.io/guides/blog</id>
     <title>Mac OS X 配置指南 Blog</title>
-    <updated>2017-10-24T06:00:00Z</updated>
+    <updated>2018-11-23T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://wild-flame.github.io/guides/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Mac OS X 配置指南 news and events.</subtitle>
     <logo>https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg</logo>
     <rights>Copyright © 2018 wild-flame</rights>
     <entry>
-        <title type="html"><![CDATA[New Version 1.0.0]]></title>
-        <id>https://wild-flame.github.io/guides/blog/2017/10/24/new-version-1.0.0.html</id>
-        <link href="https://wild-flame.github.io/guides/blog/2017/10/24/new-version-1.0.0.html">
+        <title type="html"><![CDATA[三里屯日记 - Day26]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/23/diary26.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/23/diary26.html">
         </link>
-        <updated>2017-10-24T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></summary>
+        <updated>2018-11-23T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>昨天去吃了烤鸭，真的超级好吃啊。</p> <p>我走不动路，手没劲儿的问题又出现了。</p> <p>头晕其实很久不晕了，今天下午又开始晕。</p> <p>个人主页终于上线了： <a href="https://wild-flame.github.io">https://wild-flame.github.io</a></p> ]]></summary>
         <author>
-            <name>Eric Nakagawa</name>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <uri>https://twitter.com/dousavetheworld</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adding RSS Support]]></title>
-        <id>https://wild-flame.github.io/guides/blog/2017/09/26/adding-rss.html</id>
-        <link href="https://wild-flame.github.io/guides/blog/2017/09/26/adding-rss.html">
+        <title type="html"><![CDATA[三里屯日记 - Day25]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/22/diary25.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/22/diary25.html">
         </link>
-        <updated>2017-09-26T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></summary>
+        <updated>2018-11-22T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>生命应该使用的更随便一些，太过珍惜它的话，就会沉淀腐烂。</p> ]]></summary>
         <author>
-            <name>Eric Nakagawa</name>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <uri>https://twitter.com/dousavetheworld</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-        <id>https://wild-flame.github.io/guides/blog/2017/09/25/testing-rss.html</id>
-        <link href="https://wild-flame.github.io/guides/blog/2017/09/25/testing-rss.html">
+        <title type="html"><![CDATA[三里屯日记 - Day24]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/21/diary24.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/21/diary24.html">
         </link>
-        <updated>2017-09-25T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
-]]></summary>
+        <updated>2018-11-21T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天改了一天的文档，放到了网站上。</p> <p>终于看了毒液，其实是蛮可爱的一部电影。</p> <p>然后发现海埂原来喜欢 Ashley 这样的女生。</p> ]]></summary>
         <author>
-            <name>Eric Nakagawa</name>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <uri>https://twitter.com/dousavetheworld</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Blog Post]]></title>
-        <id>https://wild-flame.github.io/guides/blog/2017/04/10/blog-post-two.html</id>
-        <link href="https://wild-flame.github.io/guides/blog/2017/04/10/blog-post-two.html">
+        <title type="html"><![CDATA[三里屯日记 - Day23]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/20/diary23.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/20/diary23.html">
         </link>
-        <updated>2017-04-10T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></summary>
+        <updated>2018-11-20T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>11月20日</p> <p>今天一整天都在Ashley那里改猪瘟的代码。</p> <p>昨天夕很敏感的发了条消息来，说觉得我很不开心。</p> <p>其实是吧，我就是很不开心。</p> <p>我的这种忧郁真的挺明显的吧。</p> ]]></summary>
         <author>
-            <name>Blog Author</name>
-            <uri>http://twitter.com/</uri>
+            <uri>https://twitter.com/dousavetheworld</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Blog Title]]></title>
-        <id>https://wild-flame.github.io/guides/blog/2016/03/11/blog-post.html</id>
-        <link href="https://wild-flame.github.io/guides/blog/2016/03/11/blog-post.html">
+        <title type="html"><![CDATA[三里屯日记 - Day22]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/19/diary22.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/19/diary22.html">
         </link>
-        <updated>2016-03-11T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></summary>
+        <updated>2018-11-19T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>昨天的照片配了一首诗:</p> <p>喧嚣的三里屯 寒冷的冬天 漆黑的夜</p> <p>昏黄的街灯下 街边的老人 一个小孩</p> <p>怎么人们建起这么大一个城市 却买不起几平米的一个房间</p> <p>唯有这烤红薯🍠 有那么一点____</p> ]]></summary>
         <author>
-            <name>Blog Author</name>
-            <uri>http://twitter.com/</uri>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day21]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/18/diary21.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/18/diary21.html">
+        </link>
+        <updated>2018-11-18T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>昨天去看了神奇动物。</p> <p>夕昨晚说“谢谢你”，谢谢我什么呢。你对我来说，既像是一抹阳光的感觉，又更像是软肋和铠甲。</p> <p>今天早上八点钟就醒了。醒来看到一条讲家庭关系的文章，居然又开始哭。</p> <p>但这次哭的原因不是因为家里的原因了，而是我突然想要有一个真正的「家」的时候，猛然感觉这个愿望永远实现不了了。</p> <p>于是哭了出来。</p> <p>这样的人生，到底值不值得过，不知道。我只知道我和夕在一起的时候，很开心的，就好像两个落难的人找到了伴侣（其实只是我一个人落难吧）。</p> <p>我知道自己活不久了，不知道有多久的日子。</p> <p>我还时不时的感觉到头...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day20]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/17/diary20.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/17/diary20.html">
+        </link>
+        <updated>2018-11-17T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月17号。</p> <p>之前就听说过一个叫戒赌三部曲的片子。和 Hacken 看了一整天的这个动画片。</p> <p>动画片是半多妹纸推荐的。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day19]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/16/diary19.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/16/diary19.html">
+        </link>
+        <updated>2018-11-16T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月16号。无fa可说。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day18]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/15/diary18.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/15/diary18.html">
+        </link>
+        <updated>2018-11-15T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>嗯，数字货币市场终于有波动了。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day17]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/14/diary17.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/14/diary17.html">
+        </link>
+        <updated>2018-11-14T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月14号，无fa可说。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day16]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/13/diary16.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/13/diary16.html">
+        </link>
+        <updated>2018-11-13T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月13号，标题是 Death is inevitable。</p> <p>墓志铭上加上一句话：</p> <blockquote> <p>a bon vivant, a gaucho amigo, a goomba, a mensch, and the fifth matrix decipher</p> </blockquote> <p>— </p> <p>这段时间跑出去了，才发现原来以前真的是井底之娃。</p> <ol> <li>我才意识到父母不是绝对的权威，我们没必要听他们的。</li> <li>我的前女友小禾，原来她和我最大的不一样其实是来自家庭，但当时因为我俩都只谈过一次恋爱，所以不知道。</li> <li>她和父母的关系其实就是我梦想中父母...</li></ol>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day15]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/12/diary15.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/12/diary15.html">
+        </link>
+        <updated>2018-11-12T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 15</p> <p>今天是11月12号，海埂的生日。</p> <p>生日快乐🎂。</p> <p>我睡不着，一个是方面因为看了Les miserables，另一个是因为我不是一个人去看的这个。</p> <p>想知道一个问题的答案：如果有一件事情，你知道一定会失败，你还会去做么？</p> <p>我不知道。</p> <p>我。不知道。</p> <p>我不。知道。</p> <p>如果一个注定会失败的人，要怎样过好自己的人生呢？</p> <p>summer or forest? Love or die? Live or leave？</p> <p>Such is a question.</p> <p>Ｎｏ anwsers for this.</p> <p>至少...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day14]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/11/diary14.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/11/diary14.html">
+        </link>
+        <updated>2018-11-11T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 14</p> <p>11月11号。今天是万恶的光棍节。</p> <p>下午和 Hacken 吃饭的时候，居然哭了。唉，说起我的中国梦，然后就哭了。</p> <p>所谓中国梦，不过是个伪命题罢了，最近看鲁迅的文章，其实我自己就是一个中国人劣根性和迷信的受害者。</p> <p>晚上离开的时候 Hacken 给了我一个大大的拥抱，他告诉我要开心就好，不要想太多。</p> <p>之后我就去找半多了，音乐剧是真的超级棒，不过开始以为夕不会喜欢这个东西呢。</p> <p>（唉，不知道自己怎么办，什么都不知道。）</p> <blockquote> <p>When the beating of your heart /</p> <p>E...</p></blockquote>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day13]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/10/diary13.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/10/diary13.html">
+        </link>
+        <updated>2018-11-10T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月10号，睡了一天觉，然后去听了脱口秀。</p> <p>人生还是这样凄凉，我的故事，就是段子手里的素材。</p> <p>夕今天很开心。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day12]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/09/diary12.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/09/diary12.html">
+        </link>
+        <updated>2018-11-09T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月9号。</p> <p>周五，不知道说什么。</p> <p>这几天都很困。</p> <p>弄了一天的VPN，下午在家睡觉。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day11]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/08/diary11.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/08/diary11.html">
+        </link>
+        <updated>2018-11-08T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月8号。</p> <p>昨天晚上第一次去北京的星巴克。</p> <p>真的感觉三里屯是一个很浮躁的地方。</p> <p>在其他地方很平常的人，在三里屯的星巴克会有一种格格不入的感觉，因为那里的人的装扮都很时髦（浮华）。</p> <p>也许衣服真的能定义一个人？我们只是行走在衣服里的皮囊罢了。</p> <p>最近要做的事情大概就是 1. 做网站 2. 做技术</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day10]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/07/diary10.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/07/diary10.html">
+        </link>
+        <updated>2018-11-07T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是11月7日。</p> <p>早上起来去办公室，其实每天除了晕晕的感觉以外，整个人感觉都还好。</p> <p>不舒服的感觉是一阵阵的目眩的，看东西的时候，感觉字在跳动。</p> <p>其实心情也还不错，就慢慢的过日子吧。</p> <p>今天的 word of day 是 Lumpenproletariat。</p> <p>原来这也是 marx 曾经提出来的东西，我以前接受的 Marx 其实是阉割版，从来不知道还有这样一个阶级的存在。</p> <hr> <p>最近这几天特别想我奶奶，以前一直不理解她，现在突然理解了。</p> <p>我发现我的很多特质和她都很像。奶奶喜欢画画，喜欢音乐，热爱生活，其...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day9]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/06/diary9.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/06/diary9.html">
+        </link>
+        <updated>2018-11-06T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 9</p> <p>今天是11月6日。</p> <p>碰巧今天是巧玲的生日，但是我也没有祝她生日快乐，我感觉自己好像失去了那种助人幸福的能力。</p> <p>心情很差，所以，买了两张《中国电影资料馆》的电影票：一张是《悲惨世界：25周年》，一张是《编舟记》。</p> <ol> <li><p>因为一直没去过百脑汇也算是我人生的一个遗憾吧。</p></li> <li><p>《编舟记》是一本日本小说的名字，后来改编成了电影和动漫，很喜欢那本小书。</p></li> </ol> <p>另外我买了一台 卡林巴琴，很好玩。</p> <p>上周跟半多同学出去以后，约了这周的脱口秀。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day8]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/05/diary8.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/05/diary8.html">
+        </link>
+        <updated>2018-11-05T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 8</p> <p>其实昨天我真的很开心。</p> <p>也没有什么别的事情，但是就是很开心，那种淡淡的开心的感觉，很久没有了。</p> <p>只有 68 天的日子了，也挺不舍的。</p> <p>不过我似乎终于做到了，向死而生，这不是说说而已，是知道自己终于会死的时候的淡定和从容。</p> <p>享受生活，然后体悟痛苦，最后安静的离开。</p> <p>今天是 11月5日。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day7]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/04/diary7.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/04/diary7.html">
+        </link>
+        <updated>2018-11-04T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 7</p> <p>Old school style.</p> <p>昨天很早就休息了，知道今天有事。</p> <p>今天袁圆姐请我们出去吃大盘鸡（有阿楚，晶晶，还有小朋友），然后下午去找半多同学：D，去看了《无双》。</p> <p>晚上吃了一顿超级贵的饭。ＴT</p> <p>之前总觉得和她莫名其妙的很相似，原来是原生家庭的问题。</p> <p>其实现在想起来，估计不少人都有这样的事情，只不过以前的环境里，我是个特殊的例子罢了。</p> <p>难得那么开心的一天，11月4日。</p> <hr> <p>Lucy:&quot;What do you mean?&quot;</p> <p>Lucy:&quot;你的意思是?&q...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day6]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/03/diary6.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/03/diary6.html">
+        </link>
+        <updated>2018-11-03T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 6</p> <p>今天是11月3日。</p> <p>脑子里有一句话 Cold in the air. Silence in the noise.</p> <p>买了一顶帽子，帮 Hacken 填了一些学历学位认证的文件。</p> <p>然后一整天都有点头晕晕晕。</p> <hr> <p>They serve the purpose of changing hydrogen into breathable oxygen.</p> <p>它们的目的是为了把氢气转化为可供呼吸的氧气(此处仅指电影《Assignment:Outer Space》中太空植物的&quot;光合作用&quot...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day5]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/02/diary5.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/02/diary5.html">
+        </link>
+        <updated>2018-11-02T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 5</p> <p>今天是2017年11月2日。</p> <p>距离世界末日还有71天，我想给你读诗</p> <hr> <p>此时</p> <p>在三里屯</p> <p>我坐在出住屋的小床上</p> <p>看着电脑</p> <p>听着窗外的引擎声</p> <p>三里屯的 H&amp;M 和优衣库里</p> <p>熙熙攘攘的人群</p> <p>还有外国人</p> <p>都在刷街买衣服</p> <p>三里屯的酒吧里</p> <p>有喝酒的人 跳舞的人 开心的人</p> <p>他们过着灯红酒绿的日子</p> <p>消费寂寞</p> <hr> <p>今天还是一阵阵的头晕，看来 5天前的决定是正确的，不然以后的人生简直不敢想。</p> <p>约了两木半多在芳草地看电影。：D</p> <p>我知道你之前得过抑郁症，我是在今年才知道这种感受，所以你要加油呀。</p> <p>我会默...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day4]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/11/01/diary4.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/11/01/diary4.html">
+        </link>
+        <updated>2018-11-01T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是2018 年11月01日。</p> <p>现在眼睛看不清东西的情况也经常都有。</p> <p>今天早上才知道台湾边检已经查到了中国的非洲猪瘟病毒了。</p> <p>然后看到一段话：</p> <p>「我的情况，B超查出来疑似癌症就开始思考要不要跟父母说，问了很多身边的人都觉得可以隐瞒一下，因为要在加拿大治病父母来了确实也帮不了什么忙。最终决定告诉父母是怕万一万一挂在了手术台上。膀胱镜确诊了以后先告诉了姑姑，让姑姑从其他城市飞回家里呆在我妈的身边打了视频电话，冷静而理智的告诉了情况，告诉了下一步先手术再免疫疗法等等后续安排。我妈第二天就辞了兼职的工...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day3]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/10/31/diary3.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/10/31/diary3.html">
+        </link>
+        <updated>2018-10-31T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 3</p> <p>今天是2018年10月31日。</p> <p>猪瘟的项目基本上已经完成了，现在已经到了中国的很多个省了。</p> <p>D3也基本上已经熟悉了。这次有几点没有注意的，就是 css 不应该写死，应该考虑缩放的问题。</p> <p>async/await 对老的浏览器支持不了，所以是不是应该考虑重做？</p> <p>晚上在家里做了一个酷炫的地球：</p> <p><a href="https://beta.observablehq.com/@wild-flame/satellite-ground-track-visualizer">https://beta.observablehq.com/@wild-flame/satellite-ground-track-visualizer</a></p> <hr> <p>晚上是万圣节前夜🎃，看到很多人在三里屯开心...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day2]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/10/30/diary2.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/10/30/diary2.html">
+        </link>
+        <updated>2018-10-30T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是2018年10月30日，我在财新的日子已经有两周了。</p> <p>生活还是没怎么变，和海埂一起，睡觉变得晚了不少。</p> <p>然后生活还是那么死，国家制度还是那么奇葩。</p> <p>这个国家，好像除了党内的人没有觉得这个国家不好，所有的人都在喊。</p> <p>国家利益，还是党的利益？人民的国家，还是党的国家？</p> <p>头晕的症状还在，没有什么缓解。</p> <p>我又仔细的考虑了自己的问题，感觉自己还是很难下定决心。</p> <p>但是这种漫长的虚无感仿佛又是真实的。</p> <p>嗷，在做的项目终于做完了。</p> <p>— — —</p> <p>下午的时候跟何爷聊了天，我感觉还是蛮开心的，要是没生病的话，真...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day1]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/10/29/diary1.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/10/29/diary1.html">
+        </link>
+        <updated>2018-10-29T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>今天是2018年10月29日，我做了一个决定：在我的下一个生日，也就是「1月12日」的时候，给我的人生划上一个句号。</p> <p>2014年，我诊断出白血病，我以为这是我人生中最困难的一年了，但是我错了。</p> <p>2016年，我回国了，我以为这是我人生中最困难的一年了，但是我错了。</p> <p>2018年，才是我人生中最困难的一年，我饱受各种神经疾病的折磨。</p> <p>但是我要过完这一年，等到19年再结束我的人生，在那一天之前，我不会把我写的东西告诉任何人，因为会有人来阻止我。</p> <p>如果在明年1月12号之前，这个世界上没有一个人告诉我，需要...</p>]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
         </author>
     </entry>
 </feed>
