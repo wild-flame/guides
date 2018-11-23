@@ -38,13 +38,25 @@ const siteConfig = {
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
+  gaTrackingId: "UA-77442644-1",
+  gaGtag: true,
+
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+   // { search: true },
     {doc: 'mac-os-x-setup-guide/guide-introduction', label: 'Docs'},
   // {doc: 'notes/SUMMARY', label: 'Notes'},
   // {page: 'help', label: 'Help'},
     {href: blog, label: "Blog" }
   ],
+
+  blogSidebarCount: 'ALL',
+  // Search
+  // algolia: {
+  //   apiKey: 'my-api-key',
+  //   indexName: 'my-index-name',
+  //   algoliaOptions: {} // Optional, if provided by Algolia
+  // },
 
   // If you have users set above, you add it here:
   // users,
