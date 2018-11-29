@@ -43,6 +43,9 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Projects</h5>
+            <a href="https://github.com/wild-flame/leetcode-solutions">
+              Leetcode solutions
+            </a>
             <a href="https://github.com/wild-flame/jekyll-Simple/">
               Jekyll simple
             </a>

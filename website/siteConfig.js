@@ -20,7 +20,7 @@ const users = [
   },
 ];
 
-const blog = "https://wildflame.me/";
+const blog = "https://wild-flame.github.io/blog/";
 
 const siteConfig = {
   title: 'Mac OS X 配置指南', // Title for your website.
