@@ -18,7 +18,7 @@
             <link>https://wild-flame.github.io/guides/blog/2018/11/29/diary32.html</link>
             <guid>https://wild-flame.github.io/guides/blog/2018/11/29/diary32.html</guid>
             <pubDate>Thu, 29 Nov 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>今天是11月29日。</p> <p>基本上一天都在做题：</p> <p><a href="https://leetcode.com/problems/open-the-lock/description/">https://leetcode.com/problems/open-the-lock/description/</a></p> <p>这道题要用到 BFS，而 BFS 的一个实现就是通过 Queue 来实现。</p> <p>把要遍历的数放到 queue 里，直到 Queue 为空。</p> <p>今天跟建坤说了我之前经历的各种事情。然后就没有然后了，果然还是会让人比较震惊的。</p> ]]></description>
+            <description><![CDATA[<p>今天是11月29日。</p> <p>基本上一天都在做题：</p> <p><a href="https://leetcode.com/problems/open-the-lock/description/">https://leetcode.com/problems/open-the-lock/description/</a></p> <p>这道题要用到 BFS，而 BFS 的一个实现就是通过 Queue 来实现。</p> <p>把要遍历的数放到 queue 里，直到 Queue 为空。</p> <p>今天跟建坤说了我之前经历的各种事情。然后就没有然后了，果然还是会让人比较震惊的。</p> <hr> <p>今天写了一篇博文，摘录如下：</p> <p>今年10月份，我搬到了三里屯，住在了别人那里。我去了财新上班，经常可以和爷爷还 coco 一...</p>]]></description>
         </item>
         <item>
             <title><![CDATA[三里屯日记 - Day31]]></title>
