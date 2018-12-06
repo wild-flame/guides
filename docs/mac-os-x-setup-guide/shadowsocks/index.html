@@ -42,6 +42,9 @@
 <p>ShadowSocks是用来科学上网的利器。</p>
 <p>ShadowSocks可以说是其中一把功能齐全的瑞士军刀。服务器端提供了各种版本，如Python、Nodejs、Go、C libev等等，安装配置过程极其简单。</p>
 <h2><a class="anchor" aria-hidden="true" id="服务器端"></a><a href="#服务器端" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>服务器端</h2>
+<blockquote>
+<p>服务器端的部署用 docker 更快，可以参考文末 docker 部分。</p>
+</blockquote>
 <ol>
 <li><p>首先你需要有一个VPS。我用的是 <a href="https://m.do.co/c/48f3c6e48721">DigitalOcean</a> 的VPS。</p>
 <pre><code class="hljs">$ ssh user@<span class="hljs-number">128.199</span><span class="hljs-selector-class">.xxx</span><span class="hljs-selector-class">.xxx</span>
@@ -83,6 +86,9 @@ Python <span class="hljs-number">2.6</span><span class="hljs-number">.8</span>
 <p>如果你用的是ss代理，在当前终端运行以下命令，那么<code>wgetcurl</code>这类网络命令都会经过ss代理</p>
 <pre><code class="hljs">$ <span class="hljs-builtin-name">export</span> <span class="hljs-attribute">ALL_PROXY</span>=socks5://127.0.0.1:1080
 </code></pre>
+<blockquote>
+<p>也可以使用 proxifier 这个软件</p>
+</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="如何让-ssh-走代理"></a><a href="#如何让-ssh-走代理" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>如何让 ssh 走代理</h2>
 <p>添加这两行到 <code>~/.ssh/config</code></p>
 <pre><code class="hljs">Host * 
