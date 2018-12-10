@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>V2ray 指南 · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;ss 被堵得实在是太厉害了，不得已只能在电脑上使用 V2ray 了。 尽管 V2ray 兼容 ss 协议，但为了不被封锁，我们会完全弃用 shadowsocks 协议，仅使用 Vmess 协议。&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="V2ray 指南 · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guides/index.html"/><meta property="og:description" content="&lt;p&gt;ss 被堵得实在是太厉害了，不得已只能在电脑上使用 V2ray 了。 尽管 V2ray 兼容 ss 协议，但为了不被封锁，我们会完全弃用 shadowsocks 协议，仅使用 Vmess 协议。&lt;/p&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><link rel="shortcut icon" href="/guides/img/favicon/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-77442644-1"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-77442644-1');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guides/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides/"><img class="logo" src="/guides/img/iconfinder_mac_os_X_401371.svg" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction" target="_self">Docs</a></li><li class=""><a href="https://wild-flame.github.io/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>科研</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">目录</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/guide-introduction">介绍</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">系统偏好设置</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/preference_and_settings/readme">系统偏好设置</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">软件安装以及下载</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/aria_2/readme">Aria2 - 下载神器</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/homebrew">Homebrew</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">后端相关工具</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/docker">Docker</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">编程工具</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/vscode">Visual Studio Code</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/xcode">Xcode</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/emacs">Emacs</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/iTerm2/README">iTerm2</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">vim</h4><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/install_vim">安装和配置</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/vim/emmet-vim">emmet-vim</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/vim/neovim">NEOVIM</a></li></ul></div><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Git 和 Github 的配置</h4><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/git">Git</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/gitignore">常用 .gitignore</a></li></ul></div></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">编程语言相关环境</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/python">Python</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/ruby">Ruby</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/nodejs">Node.js</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">科研</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/LaTeX">LaTeX</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/shadowsocks">Shadowsocks</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/V2ray">V2ray 指南</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">娱乐</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/mpv">MPV</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/chrome">Chrome</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">其他</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/Others">其它常用软件</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">附录</h3><ul><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/appendix">附：疑难杂症等</a></li><li class="navListItem"><a class="navItem" href="/guides/docs/mac-os-x-setup-guide/bibliography">Bibliography</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">V2ray 指南</h1></header><article><div><span><p>ss 被堵得实在是太厉害了，不得已只能在电脑上使用 V2ray 了。 尽管 V2ray 兼容 ss 协议，但为了不被封锁，我们会完全弃用 shadowsocks 协议，仅使用 Vmess 协议。</p>
+<h2><a class="anchor" aria-hidden="true" id="服务器端"></a><a href="#服务器端" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>服务器端</h2>
+<p>参考部署 ss 的经验，服务器端的部署用 docker 更快。</p>
+<pre><code class="hljs">docker run -v <span class="hljs-regexp">/etc/</span><span class="hljs-string">v2ray:</span><span class="hljs-regexp">/srv/</span>docker<span class="hljs-regexp">/v2ray -p 16823:16823 v2ray/</span><span class="hljs-string">official:</span>latest v2ray -config <span class="hljs-regexp">/etc/</span>v2ray/config.json
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="configjson"></a><a href="#configjson" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>config.json :</h3>
+<pre><code class="hljs">{
+  <span class="hljs-string">"inbounds"</span>: [
+    {
+      <span class="hljs-string">"port"</span>: <span class="hljs-number">16823</span>, // 服务器监听端口
+      <span class="hljs-string">"protocol"</span>: <span class="hljs-string">"vmess"</span>,    // 主传入协议
+      <span class="hljs-string">"settings"</span>: {
+        <span class="hljs-string">"clients"</span>: [
+          {
+            <span class="hljs-string">"id"</span>: <span class="hljs-string">"b831381d-6324-4d53-ad4f-8cda48b30811"</span>,  // 用户 ID，客户端与服务器必须相同
+            <span class="hljs-string">"alterId"</span>: <span class="hljs-number">64</span>
+          }
+        ]
+      }
+    }
+  ],
+  <span class="hljs-string">"outbounds"</span>: [
+    {
+      <span class="hljs-string">"protocol"</span>: <span class="hljs-string">"freedom"</span>,  // 主传出协议
+      <span class="hljs-string">"settings"</span>: {}
+    }
+  ]
+}
+
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="uuid的生成"></a><a href="#uuid的生成" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>UUID的生成</h2>
+<blockquote>
+<p>由于 id 使用的是 UUID 的格式，我们可以使用任何 UUID 生成工具生成 UUID 作为这里的 id。比如 <a href="https://www.uuidgenerator.net/">UUID Generator</a> 这个网站，只要一打开或者刷新这个网页就可以得到一个 UUID，如下图。或者可以在 Linux 使用命令 <code>cat /proc/sys/kernel/random/uuid</code> 生成。</p>
+</blockquote>
+<p><img src="https://toutyrater.github.io/resource/images/generate_uuid.png" alt=""></p>
+<p>参考：</p>
+<ul>
+<li><a href="https://v2ray.com/chapter_02/protocols/vmess.html">https://v2ray.com/chapter_02/protocols/vmess.html</a></li>
+<li><a href="https://toutyrater.github.io/basic/vmess.html">https://toutyrater.github.io/basic/vmess.html</a></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="客户端"></a><a href="#客户端" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>客户端</h2>
+<p>以下是客户端配置，将客户端的 config.json 文件修改成下面的内容，修改完成后要重启 V2Ray 才会使修改的配置生效。</p>
+<pre><code class="hljs">{
+  <span class="hljs-string">"inbounds"</span>: [
+    {
+      <span class="hljs-string">"port"</span>: <span class="hljs-number">1080</span>, // 监听端口
+      <span class="hljs-string">"protocol"</span>: <span class="hljs-string">"socks"</span>, // 入口协议为 SOCKS <span class="hljs-number">5</span>
+      <span class="hljs-string">"domainOverride"</span>: [<span class="hljs-string">"tls"</span>,<span class="hljs-string">"http"</span>],
+      <span class="hljs-string">"settings"</span>: {
+        <span class="hljs-string">"auth"</span>: <span class="hljs-string">"noauth"</span>  //socks的认证设置，noauth 代表不认证，由于 socks 通常在客户端使用，所以这里不认证
+      }
+    }
+  ],
+  <span class="hljs-string">"outbounds"</span>: [
+    {
+      <span class="hljs-string">"protocol"</span>: <span class="hljs-string">"vmess"</span>, // 出口协议
+      <span class="hljs-string">"settings"</span>: {
+        <span class="hljs-string">"vnext"</span>: [
+          {
+            <span class="hljs-string">"address"</span>: <span class="hljs-string">"serveraddr.com"</span>, // 服务器地址，请修改为你自己的服务器 IP 或域名
+            <span class="hljs-string">"port"</span>: <span class="hljs-number">16823</span>,  // 服务器端口
+            <span class="hljs-string">"users"</span>: [
+              {
+                <span class="hljs-string">"id"</span>: <span class="hljs-string">"b831381d-6324-4d53-ad4f-8cda48b30811"</span>,  // 用户 ID，必须与服务器端配置相同
+                <span class="hljs-string">"alterId"</span>: <span class="hljs-number">64</span> // 此处的值也应当与服务器相同
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+
+</code></pre>
+<p>在配置当中，有一个 id (在这里的例子是 <code>b831381d-6324-4d53-ad4f-8cda48b30811</code>)，作用类似于 Shadowsocks 的密码(password), VMess 的 id 的格式必须与 UUID 格式相同。</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2018-11-26 by wild-flame</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/guides/docs/mac-os-x-setup-guide/shadowsocks"><span class="arrow-prev">← </span><span>Shadowsocks</span></a><a class="docs-next button" href="/guides/docs/mac-os-x-setup-guide/mpv"><span>MPV</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#服务器端">服务器端</a><ul class="toc-headings"><li><a href="#configjson">config.json :</a></li></ul></li><li><a href="#uuid的生成">UUID的生成</a></li><li><a href="#客户端">客户端</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides/" class="nav-home"></a><div><h5>Docs</h5><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guides/docs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/leetcode-solutions">Leetcode solutions</a><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="http://datanews.caixin.com/2018-10-30/101321216.html">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wild-flame.github.io/blog/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2018 wild-flame</section></footer></div></body></html>
