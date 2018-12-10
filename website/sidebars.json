@@ -18,7 +18,7 @@
                 "ids": ["mac-os-x-setup-guide/git", "mac-os-x-setup-guide/gitignore"]
                }],
     "编程语言相关环境": [ "mac-os-x-setup-guide/python", "mac-os-x-setup-guide/ruby","mac-os-x-setup-guide/nodejs"],
-    "科研":["mac-os-x-setup-guide/LaTeX", "mac-os-x-setup-guide/shadowsocks"],
+    "科研":["mac-os-x-setup-guide/LaTeX", "mac-os-x-setup-guide/shadowsocks","mac-os-x-setup-guide/V2ray"],
     "娱乐":["mac-os-x-setup-guide/mpv", "mac-os-x-setup-guide/chrome"],
     "其他":["mac-os-x-setup-guide/Others"],
     "附录":["mac-os-x-setup-guide/appendix","mac-os-x-setup-guide/bibliography"]},
