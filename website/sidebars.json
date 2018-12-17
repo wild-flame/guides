@@ -23,7 +23,7 @@
     "其他":["mac-os-x-setup-guide/Others"],
     "附录":["mac-os-x-setup-guide/appendix","mac-os-x-setup-guide/bibliography"]},
   "docs-other": {
-    "乱七八糟的笔记": ["notes/SUMMARY"]
+    "乱七八糟的笔记": ["notes/SUMMARY", "notes/posts/web-development-101"]
   }
 }
 
