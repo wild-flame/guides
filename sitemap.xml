@@ -3,6 +3,11 @@
 <url> <loc>https://wild-flame.github.io/guides/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/help" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/index" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/users" /> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/17/Day50</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/16/Day49</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/15/Day48</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/14/Day47</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/13/Day46</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/12/Day45</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/11/Day44</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/10/Day43</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
@@ -10,8 +15,8 @@
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/08/Day41</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/07/Day40</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/06/Day39</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/05/diary38</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/05/diary38</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/04/diary37</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/03/diary36</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/02/diary35</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
@@ -91,7 +96,6 @@
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/ctf</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/ctf" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/design</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/design" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/docker</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/docker" /> </url>
-<url> <loc>https://wild-flame.github.io/guides/docs/notes/fun</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/fun" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/games</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/games" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/golang</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/golang" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/hexo</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/hexo" /> </url>
@@ -111,6 +115,7 @@
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/posts</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/posts" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/posts/react-and-redux-du-shu-bi-ji</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/posts/react-and-redux-du-shu-bi-ji" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/posts/scaling-reactjs-applications</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/posts/scaling-reactjs-applications" /> </url>
+<url> <loc>https://wild-flame.github.io/guides/docs/notes/posts/web-development-101</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/posts/web-development-101" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/posts/yong-node-js-shou-ba-shou-shi-xian-yi-ge-ding-tou-ji-qi-ren</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/posts/yong-node-js-shou-ba-shou-shi-xian-yi-ge-ding-tou-ji-qi-ren" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/python</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/python" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/react</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/react" /> </url>
