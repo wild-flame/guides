@@ -1,0 +1,218 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Web 前端的工程化 | 前端技术 101 · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;blockquote&gt;
+&lt;p&gt;之前听人说过，学电子的所有知识五年一更新，学软件的知识两年一更新，对于学 Web 的人来说，所有的知识大概每9个月就会大更新一次，至于是不是这样无从考证，但是至少从侧面说明 web 技术是迭代的很快的。&lt;/p&gt;
+&lt;/blockquote&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Web 前端的工程化 | 前端技术 101 · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guides/index.html"/><meta property="og:description" content="&lt;blockquote&gt;
+&lt;p&gt;之前听人说过，学电子的所有知识五年一更新，学软件的知识两年一更新，对于学 Web 的人来说，所有的知识大概每9个月就会大更新一次，至于是不是这样无从考证，但是至少从侧面说明 web 技术是迭代的很快的。&lt;/p&gt;
+&lt;/blockquote&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><link rel="shortcut icon" href="/guides/img/favicon/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-77442644-1"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-77442644-1');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guides/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides/"><img class="logo" src="/guides/img/iconfinder_mac_os_X_401371.svg" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction" target="_self">Docs</a></li><li class=""><a href="https://wild-flame.github.io/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Web 前端的工程化 | 前端技术 101</h1></header><article><div><span><blockquote>
+<p>之前听人说过，学电子的所有知识五年一更新，学软件的知识两年一更新，对于学 Web 的人来说，所有的知识大概每9个月就会大更新一次，至于是不是这样无从考证，但是至少从侧面说明 web 技术是迭代的很快的。</p>
+<p>前端技术这十来年发展的很快，网站从多页面应用向单页面发展，从 PC端向移动端发展，UI 交互也从简单的 jQuery / Ajax 发展到 React / Vue / websocket，前端应用的构建也从以前简单的手写 html/css/javascript 发展到使用 webpack / gulp / grunt / browserify 各种工具来实现。</p>
+<p>至于 javascript 这门语言，也从一门仅仅用来实现简单表格验证的小小的语言，发展到现在前后端通吃的一门生态超级复杂的语言了。为了适应这种变化，javascript 本身的语法也更新过好几次，其语言规范也已经更新到了 ES6（ECMAScript 6）。</p>
+</blockquote>
+<p>本提纲可以作为你继续探索前端技术的开端。</p>
+<h2><a class="anchor" aria-hidden="true" id="第一部分-概念"></a><a href="#第一部分-概念" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第一部分：概念</h2>
+<p>在 Web 的领域里，没有唯一正确的实现方法，同一件事情，可能有10-15件工具来完成。所以知识是学不完的，但看到某个名词，一定要清楚它到底属于什么东西，这样才能在需要的时候找到最适合的工具来帮助自己完成。</p>
+<p>前端三板斧的 html, css,         javascript, node 它们到底是干什么的？</p>
+<h3><a class="anchor" aria-hidden="true" id="前端三板斧"></a><a href="#前端三板斧" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前端三板斧</h3>
+<h4><a class="anchor" aria-hidden="true" id="第一板斧-html"></a><a href="#第一板斧-html" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第一板斧：HTML</h4>
+<p>HTML是一种标记语言。</p>
+<blockquote>
+<p>重点：</p>
+<p>什么是HTML5？</p>
+</blockquote>
+<h4><a class="anchor" aria-hidden="true" id="第二板斧-css"></a><a href="#第二板斧-css" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第二板斧：CSS</h4>
+<p>CSS3 是 CSS 的升级版本，这套新标准提供了更加丰富且实用的规范。</p>
+<blockquote>
+<p>重点：</p>
+<p>CSS3的新特性</p>
+<p>盒子模型（IE 和 Webkit 的区别）。动画。阴影。渐变。Flex 布局。</p>
+</blockquote>
+<h4><a class="anchor" aria-hidden="true" id="第三板斧-javascript-es4-es5-es6"></a><a href="#第三板斧-javascript-es4-es5-es6" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第三板斧：javascript（ES4,ES5,ES6)</h4>
+<blockquote>
+<p>什么是 ECMAScript？</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="nodejs"></a><a href="#nodejs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Node.js</h3>
+<h4><a class="anchor" aria-hidden="true" id="nodejs-是什么"></a><a href="#nodejs-是什么" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Node.js 是什么？</h4>
+<p>Node.js 是使用 V8 Javascript 的一个服务端程序。通俗地讲，就是运行在后端的 Javascript 。</p>
+<h4><a class="anchor" aria-hidden="true" id="为什么前端需要了解-nodejs"></a><a href="#为什么前端需要了解-nodejs" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>为什么前端需要了解 Node.js?</h4>
+<p>自动化构建。服务端渲染。</p>
+<h2><a class="anchor" aria-hidden="true" id="第二部分-前端的工程化"></a><a href="#第二部分-前端的工程化" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第二部分：前端的工程化</h2>
+<p>所谓工程化，就是将工作变成一个个可完成的项目，从模块化、组件化、规范化、自动化。</p>
+<h3><a class="anchor" aria-hidden="true" id="前端三板斧的模块化"></a><a href="#前端三板斧的模块化" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前端三板斧的模块化</h3>
+<h4><a class="anchor" aria-hidden="true" id="html"></a><a href="#html" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>HTML</h4>
+<p>模板引擎的引入</p>
+<ul>
+<li>markdown ot html</li>
+<li>jekyll,Octopress(静态页面生成)</li>
+<li>jade,ejs,liquid,swig</li>
+</ul>
+<pre><code class="hljs">
+
+<span class="undefined"></span></code></pre>
+<h4><a class="anchor" aria-hidden="true" id="css的工程化"></a><a href="#css的工程化" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSS的工程化</h4>
+<p>less/sass/stylus</p>
+<ul>
+<li>Nesting</li>
+</ul>
+<pre><code class="hljs"><span class="hljs-selector-tag">nav</span> {
+  <span class="hljs-selector-tag">ul</span> {
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">list-style</span>: none;
+  }
+
+  <span class="hljs-selector-tag">li</span> { <span class="hljs-attribute">display</span>: inline-block; }
+
+  <span class="hljs-selector-tag">a</span> {
+    <span class="hljs-attribute">display</span>: block;
+    <span class="hljs-attribute">padding</span>: <span class="hljs-number">6px</span> <span class="hljs-number">12px</span>;
+    <span class="hljs-attribute">text-decoration</span>: none;
+  }
+}
+</code></pre>
+<ul>
+<li>importing</li>
+</ul>
+<pre><code class="hljs"><span class="hljs-comment">//nav-bar.scss</span>
+
+<span class="hljs-selector-class">.nav-bar-head</span> {
+  <span class="hljs-attribute">position</span>: fiexd;
+  <span class="hljs-attribute">top</span>: <span class="hljs-number">0px</span>;
+  widht: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">150px</span>;
+}
+</code></pre>
+<pre><code class="hljs"><span class="hljs-comment">// base.scss</span>
+
+@<span class="hljs-keyword">import</span> <span class="hljs-string">'reset'</span>;
+
+<span class="hljs-selector-tag">body</span> {
+  <span class="hljs-attribute">font</span>: <span class="hljs-number">100%</span> Helvetica, sans-serif;
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#efefef</span>;
+}
+</code></pre>
+<p>......</p>
+<ul>
+<li>更多参见 <a href="https://marksheet.io/sass-scss-less.html">less 和 scss</a></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="js的工程化"></a><a href="#js的工程化" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>js的工程化</h4>
+<p>common.js 和 ES6</p>
+<blockquote>
+<p>这些工程化都做了什么？</p>
+<ul>
+<li><p>消除重复代码</p></li>
+<li><p>代码解耦</p></li>
+<li><p>将大文件分拆成小文件，将代码拆分为组件，用来复用</p></li>
+</ul>
+</blockquote>
+<h4><a class="anchor" aria-hidden="true" id="构建工具的引入"></a><a href="#构建工具的引入" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>构建工具的引入</h4>
+<ul>
+<li>webpack</li>
+<li>browerify</li>
+<li>grunt</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="第三部分-从工程化到集成的解决方案"></a><a href="#第三部分-从工程化到集成的解决方案" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第三部分：从工程化到集成的解决方案</h2>
+<h3><a class="anchor" aria-hidden="true" id="库-框架"></a><a href="#库-框架" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>库/框架</h3>
+<ul>
+<li>React</li>
+<li>Vue</li>
+<li>Angular</li>
+<li>Backbones.js</li>
+<li>Meteor</li>
+</ul>
+<blockquote>
+<p>Tips: 其实 React 不是一个框架</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="vue-解决了什么问题"></a><a href="#vue-解决了什么问题" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vue 解决了什么问题？</h2>
+<p>逐步的将一个项目工程化。</p>
+<h2><a class="anchor" aria-hidden="true" id="react-解决了什么问题"></a><a href="#react-解决了什么问题" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>React 解决了什么问题？</h2>
+<blockquote>
+<p>与其费尽心思地告诉别人要遵守某种规则，以规避某种痛苦，倒不如从工具层面就消灭这种痛苦。</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="第四部分-实战"></a><a href="#第四部分-实战" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>第四部分：实战</h2>
+<p>(完)</p>
+<hr>
+<h2><a class="anchor" aria-hidden="true" id="附-更多"></a><a href="#附-更多" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>附：更多</h2>
+<ul>
+<li><p>CSS3：</p>
+<ul>
+<li><a href="https://www.ibm.com/developerworks/cn/web/1202_zhouxiang_css3/index.html">CSS3的一些特性</a></li>
+</ul></li>
+<li><p>包管理器：yarn 和 npm 的使用， bower 的使用</p>
+<ul>
+<li><a href="http://www.ruanyifeng.com/blog/2016/01/npm-install.html">npm 的使用</a></li>
+<li><a href="https://juejin.im/post/5ab3f77df265da2392364341">npm 进阶</a></li>
+<li><a href="https://segmentfault.com/a/1190000000349555">Bower —— 管理你的客户端依赖关系</a></li>
+</ul></li>
+<li><p>Node.js</p>
+<ul>
+<li><a href="https://www.ibm.com/developerworks/cn/opensource/os-nodejs/index.html">node.js 是什么？</a></li>
+</ul></li>
+<li><p>打包工具：webpack 和 browerify</p></li>
+<li><p>自动化测试和部署</p>
+<ul>
+<li>Mocha</li>
+<li>Jasmine</li>
+<li>travis-ci</li>
+<li>Jenkin</li>
+</ul></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="html-html5-cheatsheet"></a><a href="#html-html5-cheatsheet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Html/Html5 CheatSheet</h3>
+<p><img src="/guides/docs/assets/html5.jpg" alt=""></p>
+<h3><a class="anchor" aria-hidden="true" id="前端语言-框架"></a><a href="#前端语言-框架" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前端语言、框架</h3>
+<ul>
+<li><p>CSS 模块化方案：LESS/ SASS</p></li>
+<li><p>JS 模块化方案：AMD/CommonJS/UMD/ES6 Modlue</p></li>
+<li><p>HTML 模板引擎：baiduTemplate(百度)artTemplate（腾讯）juicer（淘宝）doT tmpl handlebars easyTemplate underscoretemplate mustache kissytemplate</p></li>
+<li><p>前端集成框架 Bootstrap、Gumby、 Skeleton、Foundation</p></li>
+<li><p>AngularJS</p></li>
+<li><p>ReactJS</p></li>
+<li><p>VueJS</p></li>
+<li><p>Meteor</p></li>
+<li><p>还有 WEEX<br>
+(排名不分先后)</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="前端构建工具"></a><a href="#前端构建工具" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>前端构建工具</h3>
+<ul>
+<li><p><a href="http://fis.baidu.com/">FIS</a></p></li>
+<li><p><a href="https://athena.aotu.io/">athena</a></p></li>
+<li><p><a href="https://github.com/weixin/tmt-workflow">tmt-workflow</a></p></li>
+<li><p>jdf</p></li>
+</ul>
+<p>所以在实际前端构建流程里面，你会发现以下的流程。</p>
+<h3><a class="anchor" aria-hidden="true" id="代码优化"></a><a href="#代码优化" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>代码优化</h3>
+<ul>
+<li><p>LESS、SASS 自动编译</p></li>
+<li><p>Autoprefixer 前缀自动补全</p></li>
+<li><p>自动生成图片 CSS 属性，width &amp; height</p></li>
+<li><p>CSS Sprite 雪碧图合成</p></li>
+<li><p>JS、CSS、HTML 压缩</p></li>
+<li><p>按需加载</p></li>
+<li><p>延迟加载</p></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="解决方案"></a><a href="#解决方案" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>解决方案</h4>
+<ul>
+<li><p>项目初始化。如果你用了 yeoman 或者 HTML5 Boilerplate，你就懂我说什么</p></li>
+<li><p>作用域污染。前端自带问题。</p></li>
+<li><p>eslint 验证，代码验证验证</p></li>
+<li><p>Retina @2x &amp; @3x 自动生成适配</p></li>
+<li><p>px -&gt; rem 兼容适配方案</p></li>
+<li><p>智能 WebP 解决方案</p></li>
+<li><p>非覆盖式升级，文件指纹</p></li>
+<li><p>CDN 文件缓存，缓存更新</p></li>
+<li><p>自动化测试</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="调试和部署"></a><a href="#调试和部署" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>调试和部署</h3>
+<ul>
+<li><p>监听文件变动，自动刷新浏览器 (LiveReload)</p></li>
+<li><p>文件指纹，hash 值生成</p></li>
+<li><p>FTP 发布部署</p></li>
+<li><p>ZIP 项目打包</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="自动化测试"></a><a href="#自动化测试" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>自动化测试</h3>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2018-11-26 by wild-flame</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#第一部分-概念">第一部分：概念</a><ul class="toc-headings"><li><a href="#前端三板斧">前端三板斧</a></li><li><a href="#nodejs">Node.js</a></li></ul></li><li><a href="#第二部分-前端的工程化">第二部分：前端的工程化</a><ul class="toc-headings"><li><a href="#前端三板斧的模块化">前端三板斧的模块化</a></li></ul></li><li><a href="#第三部分-从工程化到集成的解决方案">第三部分：从工程化到集成的解决方案</a><ul class="toc-headings"><li><a href="#库-框架">库/框架</a></li></ul></li><li><a href="#vue-解决了什么问题">Vue 解决了什么问题？</a></li><li><a href="#react-解决了什么问题">React 解决了什么问题？</a></li><li><a href="#第四部分-实战">第四部分：实战</a></li><li><a href="#附-更多">附：更多</a><ul class="toc-headings"><li><a href="#html-html5-cheatsheet">Html/Html5 CheatSheet</a></li><li><a href="#前端语言-框架">前端语言、框架</a></li><li><a href="#前端构建工具">前端构建工具</a></li><li><a href="#代码优化">代码优化</a></li><li><a href="#调试和部署">调试和部署</a></li><li><a href="#自动化测试">自动化测试</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides/" class="nav-home"></a><div><h5>Docs</h5><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guides/docs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/leetcode-solutions">Leetcode solutions</a><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="http://datanews.caixin.com/2018-10-30/101321216.html">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wild-flame.github.io/blog/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2018 wild-flame</section></footer></div></body></html>
