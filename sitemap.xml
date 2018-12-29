@@ -3,6 +3,18 @@
 <url> <loc>https://wild-flame.github.io/guides/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/help" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/index" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/users" /> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/29/Day62</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/28/Day61</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/27/Day60</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/26/Day59</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/25/Day58</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/24/Day57</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/23/Day56</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/22/Day55</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/21/Day54</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/20/Day53</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/19/Day52</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/18/Day51</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/17/Day50</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/16/Day49</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/15/Day48</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
@@ -130,6 +142,7 @@
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/web</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/web" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/web/bower</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/web/bower" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/web/css</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/web/css" /> </url>
+<url> <loc>https://wild-flame.github.io/guides/docs/notes/web/debug</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/web/debug" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/web/jade_he_ejs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/web/jade_he_ejs" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/docs/notes/zen</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/docs/notes/zen" /> </url>
 </urlset>

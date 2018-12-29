@@ -2,12 +2,144 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wild-flame.github.io/guides/blog</id>
     <title>Mac OS X 配置指南 Blog</title>
-    <updated>2018-12-17T06:00:00Z</updated>
+    <updated>2018-12-29T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://wild-flame.github.io/guides/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Mac OS X 配置指南 news and events.</subtitle>
     <logo>https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg</logo>
     <rights>Copyright © 2018 wild-flame</rights>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day61]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/29/Day62.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/29/Day62.html">
+        </link>
+        <updated>2018-12-29T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 62</p> <p>昨天终于做完了年终的项目，今天睡了一个懒觉。</p> <p>可是今天起床以后就一直觉得不太舒服。</p> <p>似乎又开始头晕了。</p> <p>一次又一次的头晕，把我的人生一步步的推向深渊。</p> <p>我一直在思考一个问题：To die, or not to die.</p> <p>That's a problem.</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day61]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/28/Day61.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/28/Day61.html">
+        </link>
+        <updated>2018-12-28T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 61</p> <p>退烧了，赶了一天的项目。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day60]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/27/Day60.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/27/Day60.html">
+        </link>
+        <updated>2018-12-27T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 60</p> <p>上午在家，下午就去公司了。</p> <p>去公司做项目。</p> <p>财新的年终策划。</p> <p>人生真他妈艰难！</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day59]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/26/Day59.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/26/Day59.html">
+        </link>
+        <updated>2018-12-26T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 59</p> <p>这段时间北京冷到炸肝了。</p> <p>发烧一整天，中午海埂给我做的饭。</p> <p>昨天晚上的体温最高38.8度。</p> <p>一遍发烧一边还在考虑项目。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day58]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/25/Day58.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/25/Day58.html">
+        </link>
+        <updated>2018-12-25T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 58</p> <p>海埂和Ashley 聊天聊到三点过，然后早上起来就有点嗓子疼了，下午就开始发烧🤒️。</p> <p>晚上本来要和林小姐去看电影的，结果就发烧了。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day57]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/24/Day57.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/24/Day57.html">
+        </link>
+        <updated>2018-12-24T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 57</p> <p>今天赵姐入职，晚上约在一起吃了饭。</p> <p>聊了很多中国医疗的事情，还有回国以后感受到的各种不爽和不适。</p> <p>她说她让她男朋友不要回国了，我想也是，别回国了。回国就是给自己找虐的。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day56]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/23/Day56.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/23/Day56.html">
+        </link>
+        <updated>2018-12-23T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 56</p> <p>推荐两首歌，和林小姐一起听的：</p> <ol> <li><p>God Rest Ye Merry Gentlemen</p></li> <li><p>Guten abend gute nacht</p></li> </ol> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day55]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/22/Day55.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/22/Day55.html">
+        </link>
+        <updated>2018-12-22T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 55</p> <p>今天早上起来肚子疼。</p> <p>然后上午一直在睡。</p> <p>下午就去游泳了。</p> <p>接到了东哥从grab的联系电话，基本上确认了 offer 是没有希望了。</p> <p>因为癌症，我再也不可能从事这方面的工作了。</p> <p>歧视！歧视！歧视！</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day54]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/21/Day54.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/21/Day54.html">
+        </link>
+        <updated>2018-12-21T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 54</p> <p>这几天很缺觉，但是貌似也睡不太好。</p> <p>今天晚上林小姐说想吃烤鸭，所以后来就约的烤鸭店吃的烤鸭。但是她今天火很大。</p> <p>我很讨厌别人跟我发火，而且我本来也不喜欢说话。感觉她今天和平时有点点不太一样，但是我也说不上来为什么。</p> <p>总之整个人很焦躁又心情很差。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day53]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/20/Day53.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/20/Day53.html">
+        </link>
+        <updated>2018-12-20T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 53</p> <p>今天一直在写代码，各种动效什么的。</p> <p>果然大T怼完我以后我整个人都不太好了。</p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day52]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/19/Day52.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/19/Day52.html">
+        </link>
+        <updated>2018-12-19T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 52</p> <p>今天一大早去公司，就在准备下午的分享。</p> <p>然后大 T 怼了我一上午，弄得我心情很差。</p> <p>下午的分享选题选了大概一个半小时后，然后后面的分享做了 Live Coding。</p> <p>晚上本来整个人挺丧的，但是因为 Ashley 跟我聊了一阵子天，所以我变得开心了不少。</p> <p><a href="https://wild-flame.github.io/guides/docs/notes/posts/web-development-101">https://wild-flame.github.io/guides/docs/notes/posts/web-development-101</a></p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三里屯日记 - Day50]]></title>
+        <id>https://wild-flame.github.io/guides/blog/2018/12/18/Day51.html</id>
+        <link href="https://wild-flame.github.io/guides/blog/2018/12/18/Day51.html">
+        </link>
+        <updated>2018-12-18T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Day 51</p> <p>今天一天都在做年终策划。</p> <p>夏敏那边给了我后面的设计，所以年终策划也终于上线了：<a href="https://wild-flame.github.io/quiz-2018/index.html">https://wild-flame.github.io/quiz-2018/index.html</a></p> ]]></summary>
+        <author>
+            <uri>https://twitter.com/dousavetheworld</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[三里屯日记 - Day50]]></title>
         <id>https://wild-flame.github.io/guides/blog/2018/12/17/Day50.html</id>
