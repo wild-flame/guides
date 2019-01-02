@@ -3,6 +3,10 @@
 <url> <loc>https://wild-flame.github.io/guides/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/help" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/index" /> </url>
 <url> <loc>https://wild-flame.github.io/guides/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://wild-flame.github.io/guides/en/users" /> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2019/01/02/Day66</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2019/01/01/Day65</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/31/Day64</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/30/Day63</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/29/Day62</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/28/Day61</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/27/Day60</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
@@ -27,8 +31,8 @@
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/08/Day41</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/07/Day40</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/06/Day39</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/05/diary38</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/04/diary37</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/03/diary36</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://wild-flame.github.io/guides/blog/2018/12/02/diary35</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
