@@ -4,7 +4,7 @@
         <title>Mac OS X 配置指南 Blog</title>
         <link>https://wild-flame.github.io/guides/blog</link>
         <description>The best place to stay up-to-date with the latest Mac OS X 配置指南 news and events.</description>
-        <lastBuildDate>Sat, 19 Jan 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Jan 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,20 @@
             <link>https://wild-flame.github.io/guides/blog</link>
         </image>
         <copyright>Copyright © 2019 wild-flame</copyright>
+        <item>
+            <title><![CDATA[三里屯日记 - Day83]]></title>
+            <link>https://wild-flame.github.io/guides/blog/2019/01/21/Day85.html</link>
+            <guid>https://wild-flame.github.io/guides/blog/2019/01/21/Day85.html</guid>
+            <pubDate>Mon, 21 Jan 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>三里屯日记 1月19日</p> <p>Day 83</p> <p>担心的事情终于发生了。</p> <p>一直感觉有一天夕会突然爆发，果然还是不合适吧。</p> <p>其实早就感觉到了，夕在国内待了太长时间了，已经潜移默化的被周围人给同化了。</p> <p>而且夕可能精神也有些容易波动。</p> <p>一个人太长时间了，所以也不会忍耐，特别容易冲动。</p> <p>我之前还想，也许还可行，我和她一起去欧洲。</p> <p>不过看她这个脾气，她肯定是之前受过太多的委屈，又吃过特别多的亏。</p> <p>所以今天差点就想一冲动，把自己这个 bug 除掉了。</p> <p>也许是老天的安排，那个司机墨迹了好一阵子，所以我刚好在门口碰到夕。</p> ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[三里屯日记 - Day83]]></title>
+            <link>https://wild-flame.github.io/guides/blog/2019/01/20/Day84.html</link>
+            <guid>https://wild-flame.github.io/guides/blog/2019/01/20/Day84.html</guid>
+            <pubDate>Sun, 20 Jan 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>三里屯日记 1月19日</p> <p>Day 84</p> <p>担心的事情终于发生了。</p> <p>一直感觉有一天夕会突然爆发，果然还是不合适吧。</p> <p>其实早就感觉到了，夕在国内待了太长时间了，已经潜移默化的被周围人给同化了。</p> <p>而且夕可能精神也有些容易波动。</p> <p>一个人太长时间了，所以也不会忍耐，特别容易冲动。</p> <p>我之前还想，也许还可行，我和她一起去欧洲。</p> <p>不过看她这个脾气，她肯定是之前受过太多的委屈，又吃过特别多的亏。</p> <p>所以今天差点就想一冲动，把自己这个 bug 除掉了。</p> <p>也许是老天的安排，那个司机墨迹了好一阵子，所以我刚好在门口碰到夕。</p> ...]]></description>
+        </item>
         <item>
             <title><![CDATA[三里屯日记 - Day83]]></title>
             <link>https://wild-flame.github.io/guides/blog/2019/01/19/Day83.html</link>
@@ -329,18 +343,18 @@
             <description><![CDATA[<p>下午的时候， hr 一直在和我聊 Offer 的事情，最后定下来了13薪，然后大概收入 20k 这样。</p> <p>感觉可以拿下这个 offer 了。</p> ]]></description>
         </item>
         <item>
-            <title><![CDATA[The Fault in Our Stars]]></title>
-            <link>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star.html</link>
-            <guid>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star.html</guid>
-            <pubDate>Wed, 05 Dec 2018 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>那天和堂哥吃完饭回到住的地方，我就躺在床上，好好地睡了一觉，再醒来的时候，发现自己居然是哭醒的。</p> <p>原来一个人真的能够做到完全改变另外一个人，而夕就是那个奇迹般的温暖。心如死灰如我，突然就对生活有了期盼，尽管随着这期盼而来却是难过，我不敢想象以后的生活，所以我才会哭。</p> <p>从夕说喜欢我的那个早晨开始，我的人生就已经完全变了。</p> <p>和夕在一起的这个周末，应该这四年来最开心的日子之一，连日本旅行都只能排到第二。</p> <p>离开夕的第一个下午，我就痛哭了起来，因为一想到夕，一想到这份爱情也许会很短暂，一想到夕那张脸庞，就...</p>]]></description>
-        </item>
-        <item>
             <title><![CDATA[三里屯日记 - Day38]]></title>
             <link>https://wild-flame.github.io/guides/blog/2018/12/05/diary38.html</link>
             <guid>https://wild-flame.github.io/guides/blog/2018/12/05/diary38.html</guid>
             <pubDate>Wed, 05 Dec 2018 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>早上起来又开始头晕了，从昨天开始就又服上激素了，一天两粒。</p> <p>而且昨天很奇怪，一整天都没有太觉得头晕什么的，在 grab 写代码的时候脑子也特别清醒。另外我也让 helen 帮我去协和打听去了，但我本来不想去看病的，不过在 helen 的强烈建议下，我感觉我还是去看一下吧。</p> <p>— -</p> <p>上午王喆给我买了一杯咖啡，然后就发现自己手开始抖了。</p> <p>额，原来我对咖啡也过敏。</p> <p>真的好吓人。还以为症状突然加重了。</p> <p>然后整个人都处于一种完全不能集中注意力状态。</p> ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Fault in Our Stars]]></title>
+            <link>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star.html</link>
+            <guid>https://wild-flame.github.io/guides/blog/2018/12/05/The_fault_in_our_star.html</guid>
+            <pubDate>Wed, 05 Dec 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>那天和堂哥吃完饭回到住的地方，我就躺在床上，好好地睡了一觉，再醒来的时候，发现自己居然是哭醒的。</p> <p>原来一个人真的能够做到完全改变另外一个人，而夕就是那个奇迹般的温暖。心如死灰如我，突然就对生活有了期盼，尽管随着这期盼而来却是难过，我不敢想象以后的生活，所以我才会哭。</p> <p>从夕说喜欢我的那个早晨开始，我的人生就已经完全变了。</p> <p>和夕在一起的这个周末，应该这四年来最开心的日子之一，连日本旅行都只能排到第二。</p> <p>离开夕的第一个下午，我就痛哭了起来，因为一想到夕，一想到这份爱情也许会很短暂，一想到夕那张脸庞，就...</p>]]></description>
         </item>
         <item>
             <title><![CDATA[三里屯日记 - Day37]]></title>

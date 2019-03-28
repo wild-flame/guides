@@ -1,0 +1,213 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>notes/posts/How to Create a React app from scratch using Webpack 4 · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;How to Create a React app from scratch using Webpack 4&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="notes/posts/How to Create a React app from scratch using Webpack 4 · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guides/index.html"/><meta property="og:description" content="&lt;p&gt;How to Create a React app from scratch using Webpack 4&lt;/p&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><link rel="shortcut icon" href="/guides/img/favicon/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-77442644-1"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-77442644-1');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guides/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides/"><img class="logo" src="/guides/img/iconfinder_mac_os_X_401371.svg" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction" target="_self">Docs</a></li><li class=""><a href="https://wild-flame.github.io/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">notes/posts/How to Create a React app from scratch using Webpack 4</h1></header><article><div><span><p>How to Create a React app from scratch using Webpack 4</p>
+<ol>
+<li>初始化仓库</li>
+</ol>
+<pre><code class="hljs"><span class="hljs-built_in">npm</span> init
+</code></pre>
+<ol start="2">
+<li>安装 webpack</li>
+</ol>
+<pre><code class="hljs">npm <span class="hljs-selector-tag">i</span> webpack
+npm <span class="hljs-selector-tag">i</span> webpack-cli
+</code></pre>
+<ol start="3">
+<li>在 package.json 中添加配置</li>
+</ol>
+<p>{
+&quot;name&quot;: &quot;react_search&quot;,
+&quot;version&quot;: &quot;1.0.0&quot;,
+&quot;description&quot;: &quot;Search app using React&quot;,
+&quot;main&quot;: &quot;index.js&quot;,
+&quot;scripts&quot;: {
+&quot;start&quot;: &quot;webpack --mode development&quot;,
+&quot;build&quot;: &quot;webpack --mode production&quot;
+},
+&quot;keywords&quot;: [],
+&quot;author&quot;: &quot;&quot;,
+&quot;license&quot;: &quot;ISC&quot;,
+&quot;devDependencies&quot;: {
+&quot;webpack&quot;: &quot;^4.0.1&quot;,
+&quot;webpack-cli&quot;: &quot;^2.0.10&quot;
+}
+}</p>
+<ol start="4">
+<li>安装 React 和 React-dom</li>
+</ol>
+<pre><code class="hljs">npm <span class="hljs-selector-tag">i</span> react react-dom -S
+</code></pre>
+<p><code>-S</code> 表示 save</p>
+<ol start="5">
+<li>安装 babel-core, babel-loader, babel-preset-env and babel-preset-react</li>
+</ol>
+<pre><code class="hljs"><span class="hljs-symbol">npm</span> i <span class="hljs-keyword">babel-core </span><span class="hljs-keyword">babel-loader </span><span class="hljs-keyword">babel-preset-env </span><span class="hljs-keyword">babel-preset-react </span>-D
+</code></pre>
+<ul>
+<li>babel-core: Transforms your ES6 code into ES5</li>
+<li>babel-loader: Webpack helper to transform your JavaScript dependencies (for example, when you import your components into other components) with Babel</li>
+<li>babel-preset-env: Determines which transformations/plugins to use and polyfills (provide modern functionality on older browsers that do not natively support it) based on the browser matrix you want to support</li>
+<li>babel-preset-react: Babel preset for all React plugins, for example turning JSX into functions</li>
+</ul>
+<ol start="6">
+<li>创建 webpack.config.js</li>
+</ol>
+<pre><code class="hljs">module.exports = {
+<span class="hljs-symbol">  module:</span> {
+<span class="hljs-symbol">    rules:</span> [
+      {
+<span class="hljs-symbol">        test:</span> /\.js$/,
+<span class="hljs-symbol">        exclude:</span> /node_modules/,
+<span class="hljs-symbol">        use:</span> {
+<span class="hljs-symbol">          loader:</span> <span class="hljs-string">"babel-loader"</span>
+        }
+      }
+    ]
+  }
+};
+</code></pre>
+<ol start="7">
+<li>创建 .babelrc</li>
+</ol>
+<pre><code class="hljs">{
+  <span class="hljs-attr">"presets"</span>: [<span class="hljs-string">"env"</span>, <span class="hljs-string">"react"</span>]
+}
+</code></pre>
+<p>tips: We then need to make a separate file called .babelrc to provide the options for babel-loader. You can include it in the webpack.config.js file, but I have seen that most projects have this separated. This results in clearer readability, and it can be used by other tools unrelated to webpack. When you state that you’re using babel-loader in your webpack config, it will look for .babelrc file if there is one.</p>
+<ol start="8">
+<li>创建index.js 和 index.html</li>
+</ol>
+<p>index.js</p>
+<pre><code class="hljs"><span class="hljs-keyword">import</span> React <span class="hljs-keyword">from</span> <span class="hljs-string">"react"</span>;
+<span class="hljs-keyword">import</span> ReactDOM <span class="hljs-keyword">from</span> <span class="hljs-string">"react-dom"</span>;
+
+<span class="hljs-keyword">const</span> Index = <span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+  <span class="hljs-keyword">return</span> <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Hello React!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>;
+};
+
+ReactDOM.render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Index</span> /&gt;</span>, document.getElementById("index"));
+</span></code></pre>
+<p>index.html</p>
+<pre><code class="hljs"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"UTF-8"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, initial-scale=1.0"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"X-UA-Compatible"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"ie=edge"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>React and Webpack4<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"index"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<ol start="9">
+<li>安装 html-webpack-plugin</li>
+</ol>
+<p>用来编译 HTML 文件里的 script</p>
+<ol start="10">
+<li>加入 webpack 配置</li>
+</ol>
+<pre><code class="hljs">
+
+<span class="dts">const HtmlWebPackPlugin = require(<span class="hljs-string">"html-webpack-plugin"</span>);
+
+const htmlPlugin = new HtmlWebPackPlugin({
+<span class="hljs-symbol">  template:</span> <span class="hljs-string">"./src/index.html"</span>,
+<span class="hljs-symbol">  filename:</span> <span class="hljs-string">"./index.html"</span>
+});
+
+module.exports = {
+<span class="hljs-symbol">  module:</span> {
+<span class="hljs-symbol">    rules:</span> [
+      {
+<span class="hljs-symbol">        test:</span> /\.js$/,
+<span class="hljs-symbol">        exclude:</span> /node_modules/,
+<span class="hljs-symbol">        use:</span> {
+<span class="hljs-symbol">          loader:</span> <span class="hljs-string">"babel-loader"</span>
+        }
+      }
+    ]
+  },
+<span class="hljs-symbol">  plugins:</span> [htmlPlugin]
+};
+
+
+</span></code></pre>
+<p>注意：</p>
+<p>You can also input the plugin like this:</p>
+<pre><code class="hljs"><span class="hljs-symbol">plugins:</span> [
+    new HtmlWebPackPlugin({
+<span class="hljs-symbol">        template:</span> <span class="hljs-string">"./src/index.html"</span>,
+<span class="hljs-symbol">        filename:</span> <span class="hljs-string">"./index.html"</span>
+  });
+]
+</code></pre>
+<p>但是上面的第一种写法可以更清楚的看到所有使用到的插件。</p>
+<p>编译的时候遇到了问题，</p>
+<pre><code class="hljs">babel-loader@<span class="hljs-number">8</span> requires Babel <span class="hljs-number">7.</span>x (the package <span class="hljs-string">'@babel/core'</span>). <span class="hljs-keyword">If</span> you<span class="hljs-string">'d like to use Babel 6.x ('</span>babel-cor<span class="hljs-string">e'), you should install '</span>babel-loader@<span class="hljs-number">7</span><span class="hljs-string">'.
+</span></code></pre>
+<p>所以要使用 @babel/core 安装，而不是用babel-core</p>
+<p>后来编译的时候遇到了第二个问题</p>
+<pre><code class="hljs"><span class="hljs-keyword">Error: </span>Plugin/Preset files are not allowed to export objects, only functions.
+</code></pre>
+<p>解释是</p>
+<p>Just like env is now @babel/env, react should be @babel/react and you'll need to install @babel/preset-react.</p>
+<p>所以回到第一个问题，改用babel-core@7就好了</p>
+<ol start="11">
+<li>设置 webpack-dev-server</li>
+</ol>
+<pre><code class="hljs">npm <span class="hljs-selector-tag">i</span> webpack-dev-server -D
+</code></pre>
+<p>修改 <code>script.js</code></p>
+<pre><code class="hljs">{
+  ……
+  <span class="hljs-string">"scripts"</span>: {
+    <span class="hljs-string">"start"</span>: <span class="hljs-string">"webpack-dev-server --mode development --open"</span>,
+    <span class="hljs-string">"build"</span>: <span class="hljs-string">"webpack --mode production"</span>
+  },
+  ……
+}
+</code></pre>
+<ol start="12">
+<li>设置 css</li>
+</ol>
+<pre><code class="hljs">npm <span class="hljs-selector-tag">i</span> css-loader style-loader -D
+</code></pre>
+<p>Note that the order of adding these loaders is important. First, we need to resolve the CSS files before adding them to the DOM with the style-loader. By default, webpack uses the loaders from the right (last element in the array) to the left (first element in the array)</p>
+<p>webpack.config.js</p>
+<pre><code class="hljs">const HtmlWebPackPlugin = require(<span class="hljs-string">"html-webpack-plugin"</span>);
+
+const htmlWebpackPlugin = new HtmlWebPackPlugin({
+<span class="hljs-symbol">  template:</span> <span class="hljs-string">"./src/index.html"</span>,
+<span class="hljs-symbol">  filename:</span> <span class="hljs-string">"./index.html"</span>
+});
+
+module.exports = {
+<span class="hljs-symbol">  module:</span> {
+<span class="hljs-symbol">    rules:</span> [
+      {
+<span class="hljs-symbol">        test:</span> /\.js$/,
+<span class="hljs-symbol">        exclude:</span> /node_modules/,
+<span class="hljs-symbol">        use:</span> {
+<span class="hljs-symbol">          loader:</span> <span class="hljs-string">"babel-loader"</span>
+        }
+      },
+      {
+<span class="hljs-symbol">        test:</span> /\.css$/,
+<span class="hljs-symbol">        use:</span> [<span class="hljs-string">"style-loader"</span>, <span class="hljs-string">"css-loader"</span>]
+      }
+    ]
+  },
+<span class="hljs-symbol">  plugins:</span> [htmlWebpackPlugin]
+};
+</code></pre>
+<ol start="13">
+<li></li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides/" class="nav-home"></a><div><h5>Docs</h5><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guides/docs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/leetcode-solutions">Leetcode solutions</a><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="http://datanews.caixin.com/2018-10-30/101321216.html">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wild-flame.github.io/blog/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2019 wild-flame</section></footer></div></body></html>

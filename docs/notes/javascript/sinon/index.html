@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>notes/javascript/sinon · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;sinon&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#sinon&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sinon&lt;/h1&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="notes/javascript/sinon · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guides/index.html"/><meta property="og:description" content="&lt;h1&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;sinon&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#sinon&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sinon&lt;/h1&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><link rel="shortcut icon" href="/guides/img/favicon/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-77442644-1"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-77442644-1');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guides/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides/"><img class="logo" src="/guides/img/iconfinder_mac_os_X_401371.svg" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction" target="_self">Docs</a></li><li class=""><a href="https://wild-flame.github.io/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">notes/javascript/sinon</h1></header><article><div><span><h1><a class="anchor" aria-hidden="true" id="sinon"></a><a href="#sinon" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sinon</h1>
+<p>Sinon.js in Real-life</p>
+<p>这篇文章是一篇关于 Sinon-TDD 的读书笔记。</p>
+<p>之前总是觉得，如果是一个人开发的话，就不需要 TDD 了，但是我现在错了，就算是一个人开发，也需要写 TDD，尤其是想要独自一人开发大型项目的话。</p>
+<h1><a class="anchor" aria-hidden="true" id="开始之前"></a><a href="#开始之前" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>开始之前</h1>
+<h2><a class="anchor" aria-hidden="true" id="概念"></a><a href="#概念" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>概念</h2>
+<p>还是之前的情况，在开始之前，概念最重要，所以我们要理清楚我们会用到的各个库的功能。</p>
+<p>sinon.js</p>
+<ul>
+<li>spies, stubs and mocks of javascript. 测试工具的库</li>
+</ul>
+<p>mocha.js</p>
+<ul>
+<li>Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. 一个可以运行在浏览器和node.js 上的一个异步测试库</li>
+</ul>
+<p>chai.js</p>
+<ul>
+<li>Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework. 是一个断言（assertiong) 库，简单的说就是一种代码风格</li>
+</ul>
+<p>enzyme.js</p>
+<ul>
+<li>Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate, and traverse your React Components’ output. Enzyme 是一个 React 的测试组件。</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="准备知识"></a><a href="#准备知识" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>准备知识</h2>
+<p>在开始之前，请确认您已经了解了 javascript 的测试的相关知识，如果没有的话，请参考下面的内容，<strong>如果您已经了解了这些内容，请跳过这部分。</strong></p>
+<ol>
+<li>Unit Test Your Javascript Using Mocha and Chai</li>
+</ol>
+<ul>
+<li>mocha 里面使用 done 来确定测试是否结束。</li>
+</ul>
+<pre><code class="hljs">  <span class="hljs-comment">// TDD风格 assert</span>
+  assert.typeOf(foo, <span class="hljs-string">'string'</span>)
+
+  <span class="hljs-comment">// BDD风格 should</span>
+  foo<span class="hljs-selector-class">.should</span><span class="hljs-selector-class">.be</span><span class="hljs-selector-class">.a</span>(<span class="hljs-string">'string'</span>)
+
+  <span class="hljs-comment">// BDD风格 expect</span>
+  expect(foo)<span class="hljs-selector-class">.to</span><span class="hljs-selector-class">.be</span><span class="hljs-selector-class">.a</span>(<span class="hljs-string">'string'</span>
+</code></pre>
+<p>expect 的断言库的写法是很有意思的，使用了链式调用的写法。</p>
+<pre><code class="hljs"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span>() </span>{
+    contrucotr(name,age) {
+        <span class="hljs-keyword">this</span>.name = name
+        <span class="hljs-keyword">this</span>.age = age
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">updateName</span>(<span class="hljs-params">name</span>) </span>{
+        <span class="hljs-keyword">this</span>.name = name
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">updateAge</span>(<span class="hljs-params">age</span>) </span>{
+        <span class="hljs-keyword">this</span>.age = age
+        <span class="hljs-keyword">return</span> age
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sayHi</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`my name is <span class="hljs-subst">${<span class="hljs-keyword">this</span>.name}</span> and I'm <span class="hljs-subst">${<span class="hljs-keyword">this</span>.age}</span> years old`</span>)
+    }
+}
+
+<span class="hljs-keyword">const</span> p = <span class="hljs-keyword">new</span> Person({ <span class="hljs-attr">name</span>: <span class="hljs-string">'xiaoyun'</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">19</span>})
+p.updateName(<span class="hljs-string">"xiao ming"</span>).updateAge(<span class="hljs-number">23</span>).sayHi()
+
+</code></pre>
+<ol start="2">
+<li></li>
+</ol>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2019-1-8 by wild-flame</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概念">概念</a></li><li><a href="#准备知识">准备知识</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides/" class="nav-home"></a><div><h5>Docs</h5><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guides/docs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/leetcode-solutions">Leetcode solutions</a><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="http://datanews.caixin.com/2018-10-30/101321216.html">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wild-flame.github.io/blog/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2019 wild-flame</section></footer></div></body></html>
