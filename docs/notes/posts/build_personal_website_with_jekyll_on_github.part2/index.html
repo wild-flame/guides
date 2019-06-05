@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>使用 Jekyll  在 Github 上建立个人网站 (下) · Mac OS X 配置指南</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;通过本教程，我们想要学会：&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="使用 Jekyll  在 Github 上建立个人网站 (下) · Mac OS X 配置指南"/><meta property="og:type" content="website"/><meta property="og:url" content="https://wild-flame.github.io/guides/index.html"/><meta property="og:description" content="&lt;p&gt;通过本教程，我们想要学会：&lt;/p&gt;
+"/><meta property="og:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://wild-flame.github.io/guides/img/iconfinder_mac_os_X_401371.svg"/><link rel="shortcut icon" href="/guides/img/favicon/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-77442644-1"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-77442644-1');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/guides/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/guides/"><img class="logo" src="/guides/img/iconfinder_mac_os_X_401371.svg" alt="Mac OS X 配置指南"/><h2 class="headerTitleWithLogo">Mac OS X 配置指南</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction" target="_self">Docs</a></li><li class=""><a href="https://wild-flame.github.io/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">使用 Jekyll  在 Github 上建立个人网站 (下)</h1></header><article><div><span><p>通过本教程，我们想要学会：</p>
+<ol>
+<li>如何在本地搭建一个可以运行 jekyll 的环境</li>
+<li>如何使用 Github Page 来 Host 我们的网站。</li>
+</ol>
+<h1><a class="anchor" aria-hidden="true" id="接下来要做的工作"></a><a href="#接下来要做的工作" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>接下来要做的工作</h1>
+<p>接下来在 <code>PART3</code> 我们会学习如何把本地的网站同步到 github 上并访问到。</p>
+<blockquote>
+<p>PART 3：将网站同步到 Github 上，参考材料：</p>
+<ul>
+<li><a href="https://www.zhihu.com/question/59088760">如何使用 github page 搭建博客</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/25680246">Github Pages 使用入门</a></li>
+<li><a href="https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B">博客搭建详细教程</a></li>
+</ul>
+</blockquote>
+<h1><a class="anchor" aria-hidden="true" id="git的使用指南"></a><a href="#git的使用指南" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git的使用指南</h1>
+<ol>
+<li>使用 git 搭建自己的项目</li>
+<li>首先在 github 新建一个仓库。（具体方法不详细叙述）</li>
+<li>开启 github page 的服务。（登陆自己的 github 账号，打开刚刚新建过的仓库，然后点击设置(Settings) -&gt; Github Pages -&gt; Source -&gt; Master Branch，</li>
+</ol>
+<h1><a class="anchor" aria-hidden="true" id="如何自定义域名"></a><a href="#如何自定义域名" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>如何自定义域名：</h1>
+<ol>
+<li>登陆自己的 github 账号，打开需要设定域名的仓库，然后点击设置(Settings) -&gt; Github Pages -&gt; Custom domain，</li>
+</ol>
+<h1><a class="anchor" aria-hidden="true" id="如何修改网页内容"></a><a href="#如何修改网页内容" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>如何修改网页内容：</h1>
+<p>如果使用模板的话，直接修改 Readme.md 的内容就行了，readme.md 的格式是 markdown 格式，markdown 的语法参考如下：
+- <a href="https://github.com/younghz/Markdown">https://github.com/younghz/Markdown</a>
+- <a href="http://wow.kuapp.com/markdown/">http://wow.kuapp.com/markdown/</a></p>
+<p>如果不想使用模板，就需要自学 html &amp; css，可以参考：</p>
+<ul>
+<li><a href="https://www.zhihu.com/question/19661369">https://www.zhihu.com/question/19661369</a> 有哪些好的 HTML 和 CSS 入门教程可以推荐给新手？</li>
+<li>codeacademy ：网站设计成一个一个的小 quiz，所以可以一边做一边学，</li>
+<li>之后将 readme.md 改成 index.html ，就可以显示自己开发的网页了。</li>
+</ul>
+<h1><a class="anchor" aria-hidden="true" id="jekyll"></a><a href="#jekyll" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Jekyll</h1>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 2019-1-8 by wild-flame</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/guides/" class="nav-home"></a><div><h5>Docs</h5><a href="/guides/docs/mac-os-x-setup-guide/guide-introduction">Mac OS 配置指南 | Mac OS Setup Guide</a><a href="/guides/docs/notes/SUMMARY.html">乱七八糟的笔记</a></div><div><h5>Projects</h5><a href="https://github.com/wild-flame/leetcode-solutions">Leetcode solutions</a><a href="https://github.com/wild-flame/jekyll-Simple/">Jekyll simple</a><a href="http://datanews.caixin.com/2018-10-30/101321216.html">猪瘟疫情可视化</a></div><div><h5>More</h5><a href="https://wild-flame.github.io/blog/">Blog</a><a href="https://github.com/wild-flame">GitHub</a></div></section><section class="copyright">Copyright © 2019 wild-flame</section></footer></div></body></html>
